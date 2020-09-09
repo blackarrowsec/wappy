@@ -84,9 +84,9 @@ $ python3 wappy.py https://python.org -kbc -j
 
 ## Adding new technologies
 
-If you want that wap detects a new technology, you can add your rules to the 
+If you want that wappy detects a new technology, you can add your rules to the 
 [technologies.json](https://github.com/AliasIO/wappalyzer/blob/master/src/technologies.json) 
-file and load it with wap. 
+file and load it with wappy. 
 
 Please, consider to do a pull request to 
 [Wappalyzer repo](https://github.com/AliasIO/wappalyzer)

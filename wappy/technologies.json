@@ -1,11 +1,286 @@
 {
   "$schema": "../schema.json",
+  "categories": {
+    "1": {
+      "name": "CMS",
+      "priority": 1
+    },
+    "2": {
+      "name": "Message boards",
+      "priority": 1
+    },
+    "3": {
+      "name": "Database managers",
+      "priority": 2
+    },
+    "4": {
+      "name": "Documentation",
+      "priority": 2
+    },
+    "5": {
+      "name": "Widgets",
+      "priority": 9
+    },
+    "6": {
+      "name": "Ecommerce",
+      "priority": 1
+    },
+    "7": {
+      "name": "Photo galleries",
+      "priority": 1
+    },
+    "8": {
+      "name": "Wikis",
+      "priority": 1
+    },
+    "9": {
+      "name": "Hosting panels",
+      "priority": 1
+    },
+    "10": {
+      "name": "Analytics",
+      "priority": 9
+    },
+    "11": {
+      "name": "Blogs",
+      "priority": 1
+    },
+    "12": {
+      "name": "JavaScript frameworks",
+      "priority": 8
+    },
+    "13": {
+      "name": "Issue trackers",
+      "priority": 2
+    },
+    "14": {
+      "name": "Video players",
+      "priority": 7
+    },
+    "15": {
+      "name": "Comment systems",
+      "priority": 9
+    },
+    "16": {
+      "name": "Security",
+      "priority": 9
+    },
+    "17": {
+      "name": "Font scripts",
+      "priority": 9
+    },
+    "18": {
+      "name": "Web frameworks",
+      "priority": 7
+    },
+    "19": {
+      "name": "Miscellaneous",
+      "priority": 9
+    },
+    "20": {
+      "name": "Editors",
+      "priority": 4
+    },
+    "21": {
+      "name": "LMS",
+      "priority": 1
+    },
+    "22": {
+      "name": "Web servers",
+      "priority": 8
+    },
+    "23": {
+      "name": "Caching",
+      "priority": 7
+    },
+    "24": {
+      "name": "Rich text editors",
+      "priority": 5
+    },
+    "25": {
+      "name": "JavaScript graphics",
+      "priority": 6
+    },
+    "26": {
+      "name": "Mobile frameworks",
+      "priority": 8
+    },
+    "27": {
+      "name": "Programming languages",
+      "priority": 5
+    },
+    "28": {
+      "name": "Operating systems",
+      "priority": 6
+    },
+    "29": {
+      "name": "Search engines",
+      "priority": 4
+    },
+    "30": {
+      "name": "Webmail",
+      "priority": 2
+    },
+    "31": {
+      "name": "CDN",
+      "priority": 9
+    },
+    "32": {
+      "name": "Marketing automation",
+      "priority": 9
+    },
+    "33": {
+      "name": "Web server extensions",
+      "priority": 7
+    },
+    "34": {
+      "name": "Databases",
+      "priority": 5
+    },
+    "35": {
+      "name": "Maps",
+      "priority": 6
+    },
+    "36": {
+      "name": "Advertising",
+      "priority": 9
+    },
+    "37": {
+      "name": "Network devices",
+      "priority": 2
+    },
+    "38": {
+      "name": "Media servers",
+      "priority": 1
+    },
+    "39": {
+      "name": "Webcams",
+      "priority": 9
+    },
+    "41": {
+      "name": "Payment processors",
+      "priority": 8
+    },
+    "42": {
+      "name": "Tag managers",
+      "priority": 9
+    },
+    "44": {
+      "name": "CI",
+      "priority": 3
+    },
+    "45": {
+      "name": "Control systems",
+      "priority": 2
+    },
+    "46": {
+      "name": "Remote access",
+      "priority": 1
+    },
+    "47": {
+      "name": "Development",
+      "priority": 2
+    },
+    "48": {
+      "name": "Network storage",
+      "priority": 2
+    },
+    "49": {
+      "name": "Feed readers",
+      "priority": 1
+    },
+    "50": {
+      "name": "DMS",
+      "priority": 1
+    },
+    "51": {
+      "name": "Page builders",
+      "priority": 2
+    },
+    "52": {
+      "name": "Live chat",
+      "priority": 8
+    },
+    "53": {
+      "name": "CRM",
+      "priority": 5
+    },
+    "54": {
+      "name": "SEO",
+      "priority": 8
+    },
+    "55": {
+      "name": "Accounting",
+      "priority": 1
+    },
+    "56": {
+      "name": "Cryptominers",
+      "priority": 5
+    },
+    "57": {
+      "name": "Static site generator",
+      "priority": 1
+    },
+    "58": {
+      "name": "User Onboarding",
+      "priority": 8
+    },
+    "59": {
+      "name": "JavaScript libraries",
+      "priority": 9
+    },
+    "60": {
+      "name": "Containers",
+      "priority": 8
+    },
+    "61": {
+      "name": "SaaS",
+      "priority": 8
+    },
+    "62": {
+      "name": "PaaS",
+      "priority": 8
+    },
+    "63": {
+      "name": "IaaS",
+      "priority": 8
+    },
+    "64": {
+      "name": "Reverse proxies",
+      "priority": 7
+    },
+    "65": {
+      "name": "Load balancers",
+      "priority": 7
+    },
+    "66": {
+      "name": "UI frameworks",
+      "priority": 7
+    },
+    "67": {
+      "name": "Cookie compliance",
+      "priority": 9
+    },
+    "68": {
+      "name": "Accessibility",
+      "priority": 9
+    },
+    "69": {
+      "name": "Social login",
+      "priority": 6
+    },
+    "70": {
+      "name": "SSL/TLS certificate authority",
+      "priority": 6
+    }
+  },
   "technologies": {
     "1C-Bitrix": {
       "cats": [
         1,
         6
       ],
+      "description": "1C-Bitrix is a system of web project management, universal software for the creation, support and successful development of corporate websites and online stores.",
       "headers": {
         "Set-Cookie": "BITRIX_",
         "X-Powered-CMS": "Bitrix Site Manager"
@@ -14,7 +289,6 @@
       "icon": "1C-Bitrix.png",
       "implies": "PHP",
       "scripts": "1c-bitrix",
-      "description": "1C-Bitrix is a system of web project management, universal software for the creation, support and successful development of corporate websites and online stores.",
       "website": "http://www.1c-bitrix.ru"
     },
     "3dCart": {
@@ -91,12 +365,12 @@
       "cats": [
         12
       ],
+      "description": "AMP, originally created by Google, is an open-source HTML framework developed by the AMP open-source Project. AMP is designed to help webpages load faster.",
       "html": [
         "<html[^>]* (?:amp|⚡)[^-]",
         "<link rel=\"amphtml\""
       ],
       "icon": "Accelerated-Mobile-Pages.svg",
-      "description": "AMP, originally created by Google, is an open source HTML framework developed by the AMP Open Source Project. AMP is designed to help webpages load faster.",
       "website": "https://www.amp.dev"
     },
     "AMP Plugin": {
@@ -144,6 +418,15 @@
       "scripts": "xiti\\.com/hit\\.xiti",
       "website": "http://atinternet.com/en"
     },
+    "AWS Certificate Manager": {
+      "cats": [
+        70
+      ],
+      "certIssuer": "Amazon",
+      "icon": "aws.svg",
+      "implies": "Amazon Web Services",
+      "website": "https://aws.amazon.com/certificate-manager/"
+    },
     "AWStats": {
       "cats": [
         10
@@ -160,31 +443,16 @@
       "cats": [
         68
       ],
+      "description": "AccessiBe is an automated web accessibility solution for ADA and WCAG compliance. The system scans and analyzes a website using AI technology, and applies all the required adjustments to become ADA and WCAG 2.1 compliant.",
       "icon": "Accessibe.png",
       "scripts": "acsbap\\.com/.*/acsb\\.js",
       "website": "https://accessibe.com/"
-    },
-    "Cloud Platform": {
-      "cats": [
-        62
-      ],
-      "headers": {
-        "X-AH-Environment": "^\\w+$"
-      },
-      "icon": "acquia-cloud.png",
-      "implies": [
-        "Drupal\\;confidence:95",
-        "Apache",
-        "Percona",
-        "Amazon EC2"
-      ],
-      "description": "Cloud Platform (formally Acquia Cloud) is a Drupal-tuned application lifecycle management suite with an infrastructure to support Drupal deployment workflow processes.",
-      "website": "https://www.acquia.com/"
     },
     "Act-On": {
       "cats": [
         32
       ],
+      "description": "Act-On is a Software-as-a-Service (SaaS) product for marketing automation.",
       "icon": "ActOn.png",
       "js": {
         "ActOn": ""
@@ -232,13 +500,13 @@
       "cats": [
         36
       ],
+      "description": "AdRoll is a digital marketing technology platform that specializes in retargeting.",
       "icon": "AdRoll.svg",
       "js": {
         "adroll_adv_id": "",
         "adroll_pix_id": ""
       },
       "scripts": "(?:a|s)\\.adroll\\.com",
-      "description": "AdRoll is a digital marketing technology platform that specializes in retargeting.",
       "website": "http://adroll.com"
     },
     "Adally": {
@@ -279,6 +547,7 @@
       "cats": [
         5
       ],
+      "description": "AddThis is a social bookmarking service that can be integrated into a website with the use of a web widget.",
       "icon": "AddThis.svg",
       "js": {
         "addthis": ""
@@ -290,6 +559,7 @@
       "cats": [
         5
       ],
+      "description": "AddToAny is a universal sharing platform that can be integrated into a website by use of a web widget or plugin.",
       "icon": "AddToAny.png",
       "js": {
         "a2apage_init": ""
@@ -326,6 +596,7 @@
         10,
         61
       ],
+      "description": "Adobe Analytics is a web analytics, marketing and cross-channel analytics application.",
       "icon": "Adobe Analytics.svg",
       "js": {
         "s_c_il.0._c": "s_c",
@@ -365,27 +636,19 @@
       "cats": [
         42
       ],
+      "description": "Dynamic Tag Management (DTM) is a tag management solution for Adobe Experience Cloud applications and others.",
       "icon": "adobedtm.png",
       "js": {
         "_satellite.buildDate": ""
       },
       "website": "https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html"
     },
-    "Adobe Experience Platform Launch": {
-      "cats": [
-        42
-      ],
-      "icon": "adobe_experience_platform.png",
-      "js": {
-        "_satellite.buildInfo": ""
-      },
-      "website": "https://docs.adobelaunch.com/getting-started"
-    },
     "Adobe Experience Manager": {
       "cats": [
         1
       ],
       "cpe": "cpe:/a:adobe:experience_manager",
+      "description": "Adobe Experience Manager (AEM) is a content management solution for building websites, mobile apps and forms.",
       "html": [
         "<div class=\"[^\"]*parbase",
         "<div[^>]+data-component-path=\"[^\"+]jcr:",
@@ -397,13 +660,13 @@
         "/etc/clientlibs/",
         "/etc\\.clientlibs/"
       ],
-      "description": "Adobe Experience Manager (AEM) is a content management solution for building websites, mobile apps and forms.",
       "website": "https://www.adobe.com/marketing/experience-manager.html"
     },
     "Adobe Experience Platform Identity Service": {
       "cats": [
         61
       ],
+      "description": "Adobe Experience Platform Identity Service creates identity graphs that hold customer profiles and the known identifiers that belong to individual consumers.",
       "icon": "Adobe.svg",
       "js": {
         "s_c_il.0._c": "Visitor",
@@ -415,11 +678,23 @@
       },
       "website": "https://docs.adobe.com/content/help/en/id-service/using/home.html"
     },
+    "Adobe Experience Platform Launch": {
+      "cats": [
+        42
+      ],
+      "description": "Adoeb Experience Cloud Launch is an extendable tag managemt solution for Adobe Experience Cloud, Adobe Experience Platform, and other applications.",
+      "icon": "adobe_experience_platform.png",
+      "js": {
+        "_satellite.buildInfo": ""
+      },
+      "website": "https://docs.adobelaunch.com/getting-started"
+    },
     "Adobe GoLive": {
       "cats": [
         20
       ],
       "cpe": "cpe:/a:adobe:golive",
+      "description": "Adobe GoLive is a WYSIWYG HTML editor and web site management application.",
       "icon": "Adobe GoLive.png",
       "meta": {
         "generator": "Adobe GoLive(?:\\s([\\d.]+))?\\;version:\\1"
@@ -431,6 +706,7 @@
         4
       ],
       "cpe": "cpe:/a:adobe:robohelp",
+      "description": "Adobe RoboHelp is a Help Authoring Tool (HAT) that allows you to create help systems, e-learning content and knowledge bases.",
       "icon": "Adobe RoboHelp.svg",
       "js": {
         "gbWhLang": "",
@@ -450,6 +726,7 @@
         32,
         61
       ],
+      "description": "Adobe Target is an A/B testing, multi-variate testing, personalisation, and optimisation application",
       "icon": "Adobe.svg",
       "js": {
         "adobe.target": "",
@@ -501,11 +778,11 @@
       "cats": [
         41
       ],
+      "description": "Adyen allows businesses to accept ecommerce, mobile, and point-of-sale payments.",
       "icon": "Adyen.svg",
       "js": {
         "adyen.encrypt.version": "^(.+)$\\;version:\\1"
       },
-      "description": "Adyen allows businesses to accept ecommerce, mobile, and point-of-sale payments.",
       "website": "https://www.adyen.com"
     },
     "Adzerk": {
@@ -561,12 +838,12 @@
         41
       ],
       "cpe": "cpe:/a:afterpay:afterpay",
+      "description": "Afterpay is a 'buy now, pay later' platform that makes it possible to pay off purchased goods in fortnightly instalments.",
       "icon": "afterpay.png",
       "scripts": [
         "portal\\.afterpay\\.com",
         "static\\.afterpay\\.com"
       ],
-      "description": "Afterpay is a 'buy now, pay later' platform that makes it possible to pay off purchased goods in fortnightly instalments.",
       "website": "https://www.afterpay.com/"
     },
     "Ahoy": {
@@ -587,9 +864,9 @@
       "cats": [
         52
       ],
+      "description": "Aircall is a cloud-based phone system for customer support and sales teams.",
       "icon": "aircall.png",
       "scripts": "^https?://cdn\\.aircall\\.io/",
-      "description": "Aircall is a cloud-based phone system for customer support and sales teams.",
       "website": "http://aircall.io"
     },
     "Airee": {
@@ -616,11 +893,11 @@
       "cats": [
         31
       ],
+      "description": "Akamai is global content delivery network (CDN) services provider for media and software delivery, and cloud security solutions.",
       "headers": {
         "X-Akamai-Transformed": ""
       },
       "icon": "akamai.svg",
-      "description": "Akamai is global content delivery network (CDN) services provider for media and software delivery, and cloud security solutions.",
       "website": "http://akamai.com"
     },
     "Akamai Bot Manager": {
@@ -666,12 +943,12 @@
       "cats": [
         29
       ],
+      "description": "Algolia offers a hosted web search product delivering real-time results.",
       "icon": "Algolia.svg",
       "js": {
         "AlgoliaSearch": "",
         "algoliasearch.version": "^(.+)$\\;version:\\1"
       },
-      "description": "Algolia offers a hosted web search product delivering real-time results.",
       "website": "http://www.algolia.com"
     },
     "All in One SEO Pack": {
@@ -679,10 +956,10 @@
         54
       ],
       "cpe": "cpe:/a:semperfiwebdesign:all_in_one_seo_pack",
+      "description": "All in One SEO plugin optimizes WordPress website and its content for search engines.",
       "html": "<!-- All in One SEO Pack ([\\d.]+) \\;version:\\1",
       "icon": "all-in-One-SEO-Pack.png",
       "implies": "WordPress",
-      "description": "All in One SEO plugin optimizes WordPress website and its content for search engines.",
       "website": "https://wordpress.org/plugins/all-in-one-seo-pack/"
     },
     "Allegro RomPager": {
@@ -728,6 +1005,7 @@
       "cats": [
         20
       ],
+      "description": "Amaya is an open-source web browser editor to create and update documents on the web.",
       "icon": "Amaya.png",
       "meta": {
         "generator": "Amaya(?: V?([\\d.]+[a-z]))?\\;version:\\1"
@@ -742,74 +1020,34 @@
         "AWSALB": "",
         "AWSALBCORS": ""
       },
+      "description": "Amazon Application Load Balancer (ALB) distributes incoming application traffic to inscrease availability and support content-based routing.",
       "icon": "aws-elb.png",
       "implies": "Amazon Web Services",
       "website": "https://aws.amazon.com/elasticloadbalancing/"
-    },
-    "AWS Certificate Manager": {
-      "cats": [
-        70
-      ],
-      "certIssuer": "Amazon",
-      "icon": "aws.svg",
-      "implies": "Amazon Web Services",
-      "website": "https://aws.amazon.com/certificate-manager/"
-    },
-    "Let's Encrypt": {
-      "cats": [
-        70
-      ],
-      "certIssuer": "Let's Encrypt",
-      "icon": "Lets Encrypt.svg",
-      "website": "https://letsencrypt.org/"
-    },
-    "Sectigo": {
-      "cats": [
-        70
-      ],
-      "certIssuer": "Sectigo",
-      "icon": "Sectigo.svg",
-      "website": "https://sectigo.com/"
-    },
-    "DigiCert": {
-      "cats": [
-        70
-      ],
-      "certIssuer": "DigiCert",
-      "icon": "DigiCert.svg",
-      "website": "https://www.digicert.com/"
-    },
-    "Identrust": {
-      "cats": [
-        70
-      ],
-      "certIssuer": "TrustID",
-      "icon": "Identrust.svg",
-      "website": "https://www.identrust.com/"
     },
     "Amazon Cloudfront": {
       "cats": [
         31
       ],
+      "description": "Amazon CloudFront is a content delivery network offered by Amazon Web Services.",
       "headers": {
         "Via": "\\(CloudFront\\)$",
         "X-Amz-Cf-Id": ""
       },
       "icon": "Amazon-Cloudfront.svg",
       "implies": "Amazon Web Services",
-      "description": "Amazon CloudFront is a content delivery network offered by Amazon Web Services.",
       "website": "http://aws.amazon.com/cloudfront/"
     },
     "Amazon EC2": {
       "cats": [
         22
       ],
+      "description": "Amazon Elastic Compute Cloud is a part of Amazon.com's cloud-computing platform, Amazon Web Services, that allows users to rent virtual computers on which to run their own computer applications.",
       "headers": {
         "Server": "\\(Amazon\\)"
       },
       "icon": "aws-ec2.svg",
       "implies": "Amazon Web Services",
-      "description": "Amazon Elastic Compute Cloud is a part of Amazon.com's cloud-computing platform, Amazon Web Services, that allows users to rent virtual computers on which to run their own computer applications.",
       "website": "http://aws.amazon.com/ec2/"
     },
     "Amazon ECS": {
@@ -841,6 +1079,7 @@
       "cats": [
         41
       ],
+      "description": "Amazon Pay is an online payments processing service that is owned by Amazon. It lets you use the payment methods associated with your Amazon account to make payments for goods and services.",
       "html": "<meta id=\"amazon-payments",
       "icon": "Amazon Pay.svg",
       "js": {
@@ -850,7 +1089,6 @@
         "/amazonpayments(?:\\.min)?\\.js",
         "static-[^.]\\.payments-amazon\\.com/OffAmazonPayments"
       ],
-      "description": "Amazon Pay is an online payments processing service that is owned by Amazon. It lets you use the payment methods associated with your Amazon account to make payments for goods and services.",
       "website": "https://pay.amazon.com"
     },
     "Amazon S3": {
@@ -868,8 +1106,8 @@
       "cats": [
         62
       ],
-      "icon": "aws.svg",
       "description": "Amazon Web Services (AWS) is a comprehensive cloud services platform offering compute power, database storage, content delivery and other functionality.",
+      "icon": "aws.svg",
       "website": "https://aws.amazon.com/"
     },
     "Amber": {
@@ -887,9 +1125,9 @@
       "cats": [
         41
       ],
+      "description": "American Express, also known as Amex, facilitates electronic funds transfers throughout the world, most commonly through branded credit cards, debit cards and prepaid cards.",
       "html": "<[^>]+aria-labelledby=\"pi-american_express",
       "icon": "Amex.svg",
-      "description": "American Express, also known as Amex, facilitates electronic funds transfers throughout the world, most commonly through branded credit cards, debit cards and prepaid cards.",
       "website": "https://www.americanexpress.com"
     },
     "Ametys": {
@@ -908,9 +1146,9 @@
       "cats": [
         41
       ],
+      "description": "Amex Express Checkout is a service that simplifies the checkout experience by auto-filling necessary cardholder payment data into merchant checkout fields.",
       "icon": "amex.png",
       "scripts": "aexp-static\\.com",
-      "description": "Amex Express Checkout is a service that simplifies the checkout experience by auto-filling necessary cardholder payment data into merchant checkout fields.",
       "website": "https://www.americanexpress.com/us/express-checkout/"
     },
     "Amiro.CMS": {
@@ -960,6 +1198,7 @@
       "cats": [
         12
       ],
+      "description": "Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google.",
       "excludes": [
         "AngularDart",
         "AngularJS"
@@ -970,31 +1209,20 @@
         "ng.coreTokens": "",
         "ng.probe": ""
       },
-      "description": "Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google.",
       "website": "https://angular.io"
     },
     "Angular Material": {
       "cats": [
         66
       ],
+      "description": "Angular Material is a UI component library for Angular JS developers. Angular Material components assis in constructing attractive, consistent, and functional web pages and web applications.",
       "icon": "AngularJS.svg",
       "implies": "AngularJS",
       "js": {
         "ngMaterial": ""
       },
       "scripts": "/([\\d.rc-]+)?/angular-material(?:\\.min)?\\.js\\;version:\\1",
-      "description": "Angular Material is a UI component library for Angular JS developers. Angular Material components assis in constructing attractive, consistent, and functional web pages and web applications.",
       "website": "https://material.angularjs.org"
-    },
-    "Vuetify": {
-      "cats": [
-        66
-      ],
-      "icon": "Vuetify.svg",
-      "implies": "Vue.js",
-      "html": "<div data-app[^>]+class=\"v-application",
-      "css": "\\.v-application \\.d-block ",
-      "website": "https://vuetifyjs.com"
     },
     "AngularDart": {
       "cats": [
@@ -1015,6 +1243,7 @@
       "cats": [
         12
       ],
+      "description": "AngularJS is a JavaScript-based open-source web application framework led by the Angular Team at Google.",
       "excludes": [
         "Angular",
         "AngularDart"
@@ -1054,6 +1283,7 @@
         22
       ],
       "cpe": "cpe:/a:apache:http_server",
+      "description": "Apache is a free and open-source cross-platform web server software.",
       "headers": {
         "Server": "(?:Apache(?:$|/([\\d.]+)|[^/-])|(?:^|\\b)HTTPD)\\;version:\\1"
       },
@@ -1077,8 +1307,9 @@
         22
       ],
       "cpe": "cpe:/a:apache:tomcat",
+      "description": "Apache Tomcat is an open-source implementation of the Java Servlet, JavaServer Pages, Java Expression Language and WebSocket technologies.",
       "headers": {
-        "Server": "^Apache-Coyote(?:/([\\d.]+))?\\;version:\\1",
+        "Server": "^Apache-Coyote",
         "X-Powered-By": "\\bTomcat\\b(?:-([\\d.]+))?\\;version:\\1"
       },
       "icon": "Apache Tomcat.svg",
@@ -1123,6 +1354,7 @@
       "cats": [
         4
       ],
+      "description": "Apigee is an API gateway management tool to exchange data across cloud services and applications",
       "html": "<script>[^>]{0,50}script src=[^>]/profiles/apigee",
       "icon": "apigee.svg",
       "scripts": "/profiles/apigee",
@@ -1163,28 +1395,29 @@
       "cats": [
         36
       ],
+      "description": "AppNexus is a cloud-based software platform that enables and optimizes programmatic online advertising.",
       "html": "<(?:iframe|img)[^>]+adnxs\\.(?:net|com)",
       "icon": "AppNexus.svg",
       "scripts": "adnxs\\.(?:net|com)",
-      "description": "AppNexus is a cloud-based software platform that enables and optimizes programmatic online advertising.",
       "website": "http://appnexus.com"
     },
     "Apple Pay": {
       "cats": [
         41
       ],
+      "description": "Apple Pay is a mobile payment and digital wallet service by Apple that allows users to make payments in person, in iOS apps, and on the web.",
       "html": [
         "<[^>]+aria-labelledby=\"pi-apple_pay",
         "<script id=\"apple-pay"
       ],
       "icon": "Apple.svg",
-      "description": "Apple Pay is a mobile payment and digital wallet service by Apple that allows users to make payments in person, in iOS apps, and on the web.",
       "website": "https://www.apple.com/apple-pay"
     },
     "Apple Sign-in": {
       "cats": [
         69
       ],
+      "description": "Apple Sign-in is based on OAuth 2.0 and OpenID Connect, and provides a privacy-friendly way for users to sign in to websites and apps.",
       "html": [
         "<meta[ˆ>]*appleid-signin-client-id",
         "<a[ˆ>]*appleid\\.apple\\.com/auth/authorize"
@@ -1224,6 +1457,7 @@
       "cats": [
         35
       ],
+      "description": "ArcGIS API for JavaScript is a tool used to embed maps and tasks in web applications.",
       "icon": "arcgis_icon.png",
       "scripts": [
         "js\\.arcgis\\.com",
@@ -1279,6 +1513,7 @@
         20,
         27
       ],
+      "description": "AsciiDoc is a text document format for writing documentation, slideshows, web pages, man pages and blogs. AsciiDoc files can be translated to many formats including HTML, PDF, EPUB, man page.",
       "icon": "AsciiDoc.png",
       "js": {
         "asciidoc": ""
@@ -1390,6 +1625,7 @@
       "cats": [
         68
       ],
+      "description": "AudioEye automatically evaluates and adjusts website content to be accessible.",
       "html": "<iframe[^>]*audioeye\\.com/frame/cookieStorage",
       "icon": "AudioEye.png",
       "scripts": "audioeye\\.com/ae\\.js",
@@ -1414,6 +1650,7 @@
       "cats": [
         62
       ],
+      "description": "Automattic is a freemium blogging service and an open-source blogging software.",
       "headers": {
         "X-Hacker": "(?:automattic\\.com/jobs|wpvip\\.com/careers)"
       },
@@ -1446,6 +1683,7 @@
       "cats": [
         29
       ],
+      "description": "Awesomplete is a tool in the Javascript UI Libraries category of a tech stack.",
       "html": "<link[^>]+href=\"[^>]*awesomplete(?:\\.min)?\\.css",
       "js": {
         "awesomplete": ""
@@ -1461,6 +1699,7 @@
         "ARRAffinity": "",
         "TiPMix": ""
       },
+      "description": "Azure is a cloud computing service for building, testing, deploying, and managing applications and services through Microsoft-managed data centers.",
       "headers": {
         "azure-regionname": "",
         "azure-sitename": "",
@@ -1519,6 +1758,7 @@
       "cats": [
         19
       ],
+      "description": "Babel is a free and open-source transcompiler for writing next generation JavaScript.",
       "icon": "Babel.svg",
       "js": {
         "_babelPolyfill": ""
@@ -1540,6 +1780,7 @@
       "cats": [
         12
       ],
+      "description": "BackboneJS is a JavaScript library that allows to develop and structure the client side applications that run in a web browser.",
       "icon": "Backbone.js.png",
       "implies": "Underscore.js",
       "js": {
@@ -1625,11 +1866,11 @@
       "cats": [
         6
       ],
+      "description": "BigCommerce is a hosted ecommerce platform that allows business owners to set up an online store and sell their products online.",
       "html": "<link href=[^>]+cdn\\d+\\.bigcommerce\\.com/",
       "icon": "Bigcommerce.png",
       "scripts": "cdn\\d+\\.bigcommerce\\.com/",
       "url": "mybigcommerce\\.com",
-      "description": "BigCommerce is a hosted ecommerce platform that allows business owners to set up an online store and sell their products online.",
       "website": "http://www.bigcommerce.com"
     },
     "Bigware": {
@@ -1726,6 +1967,7 @@
       "cats": [
         11
       ],
+      "description": "Blogger is a blog-publishing service that allows multi-user blogs with time-stamped entries.",
       "icon": "Blogger.png",
       "implies": "Python",
       "meta": {
@@ -1746,6 +1988,7 @@
       "cats": [
         20
       ],
+      "description": "Bluefish is a free software text editor with a variety of tools for programming in general and the development of websites.",
       "icon": "Bluefish.png",
       "meta": {
         "generator": "Bluefish(?:\\s([\\d.]+))?\\;version:\\1"
@@ -1787,6 +2030,7 @@
       "cats": [
         52
       ],
+      "description": "BoldChat is a live chat platform.",
       "icon": "BoldChat.png",
       "scripts": "^https?://vmss\\.boldchat\\.com/aid/\\d{18}/bc\\.vms4/vms\\.js",
       "website": "https://www.boldchat.com/"
@@ -1796,6 +2040,7 @@
         1,
         11
       ],
+      "description": "BoldGrid is a free website builder for WordPress websites.",
       "html": [
         "<link rel=[\"']stylesheet[\"'] [^>]+boldgrid",
         "<link rel=[\"']stylesheet[\"'] [^>]+post-and-page-builder",
@@ -1834,14 +2079,15 @@
         66
       ],
       "cpe": "cpe:/a:getbootstrap:bootstrap",
+      "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.",
       "html": [
         "<style>\\s+/\\*!\\s+\\* Bootstrap v(\\d\\.\\d\\.\\d)\\;version:\\1",
         "<link[^>]* href=[^>]*?bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)[^>]*?(?:\\.min)?\\.css\\;version:\\1"
       ],
+      "icon": "Bootstrap.svg",
       "implies": [
         "jQuery\\;confidence:50"
       ],
-      "icon": "Bootstrap.svg",
       "js": {
         "bootstrap.Alert.VERSION": "^(.+)$\\;version:\\1",
         "jQuery.fn.tooltip.Constructor.VERSION": "^(.+)$\\;version:\\1"
@@ -1849,7 +2095,6 @@
       "scripts": [
         "bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)[^>]*?(?:\\.min)?\\.js\\;version:\\1"
       ],
-      "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.",
       "website": "https://getbootstrap.com"
     },
     "Bootstrap Table": {
@@ -1884,6 +2129,7 @@
       "cats": [
         32
       ],
+      "description": "Bounce Exchange is a software for behavioural marketing technologies, created to de-anonymise site visitors, analyse their digital behaviour and create relevant digital experiences regardless of channel or device.",
       "icon": "Bounce Exchange.svg",
       "js": {
         "bouncex": ""
@@ -1895,13 +2141,13 @@
       "cats": [
         41
       ],
+      "description": "Braintree, a division of PayPal, specializes in mobile and web payment systems for e-commerce companies. Braintree provides clients with a merchant account and a payment gateway.",
       "icon": "Braintree.svg",
       "js": {
         "Braintree": "",
         "Braintree.version": "^(.+)$\\;version:\\1"
       },
       "scripts": "js\\.braintreegateway\\.com",
-      "description": "Braintree, a division of PayPal, specializes in mobile and web payment systems for e-commerce companies. Braintree provides clients with a merchant account and a payment gateway.",
       "website": "https://www.braintreepayments.com"
     },
     "Brightspot": {
@@ -1950,6 +2196,7 @@
       "cats": [
         10
       ],
+      "description": "Bugsnag is a cross-platform error monitoring, reporting, and resolution software.",
       "icon": "BugSnag.png",
       "js": {
         "Bugsnag": "",
@@ -1957,7 +2204,6 @@
         "bugsnagClient": ""
       },
       "scripts": "/bugsnag.*\\.js",
-      "description": "Bugsnag is a cross-platform error monitoring, reporting, and resolution software.",
       "website": "http://bugsnag.com"
     },
     "Bugzilla": {
@@ -2048,6 +2294,7 @@
       "cats": [
         27
       ],
+      "description": "ColdFusion Markup Language (CFML), is a scripting language for web development that runs on the JVM, the .NET framework, and Google App Engine.",
       "icon": "CFML.png",
       "website": "http://adobe.com/products/coldfusion-family.html"
     },
@@ -2055,6 +2302,7 @@
       "cats": [
         67
       ],
+      "description": "Civic provides cookie control for user consent and the use of cookies.",
       "icon": "civic.png",
       "scripts": "cc\\.cdn\\.civiccomputing\\.com",
       "website": "https://www.civicuk.com/cookie-control"
@@ -2229,6 +2477,7 @@
       "cats": [
         6
       ],
+      "description": "Websites that have a shopping cart or checkout page, either using a known ecommerce platform or a custom solution.",
       "html": [
         "<a[^>]*href=[^>]*/Cart",
         "<a[^>]*href=[^>]*/Basket",
@@ -2238,7 +2487,6 @@
         "<a[^>]*href=[^>]*/Checkout"
       ],
       "icon": "Cart-generic.svg",
-      "description": "Websites that have a shopping cart or checkout page, either using a known ecommerce platform or a custom solution.",
       "website": "https://www.wappalyzer.com/technologies/ecommerce/cart-functionality"
     },
     "Catberry.js": {
@@ -2261,11 +2509,11 @@
       "cats": [
         57
       ],
+      "description": "Cecil is a CLI application that merges plain text files, images and Twig templates to generate a static website.",
       "icon": "Cecil.png",
       "meta": {
         "generator": "^Cecil(?: ([0-9.]+))?$\\;version:\\1"
       },
-      "description": "Cecil is a CLI application that merges plain text files, images and Twig templates to generate a static website.",
       "website": "https://cecil.app"
     },
     "CentOS": {
@@ -2448,6 +2696,7 @@
       "cats": [
         32
       ],
+      "description": "Clickfunnels is an online sales funnel builder that helps businesses market, sell, and deliver their products online.",
       "html": "<meta property=\"cf:app_domain\" content=\"app\\.clickfunnels\\.com\"",
       "icon": "ClickFunnels.png",
       "website": "https://www.clickfunnels.com"
@@ -2501,6 +2750,23 @@
       "scripts": "clipboard(?:-([\\d.]+))?(?:\\.min)?\\.js\\;version:\\1",
       "website": "https://clipboardjs.com/"
     },
+    "Cloud Platform": {
+      "cats": [
+        62
+      ],
+      "description": "Cloud Platform (formally Acquia Cloud) is a Drupal-tuned application lifecycle management suite with an infrastructure to support Drupal deployment workflow processes.",
+      "headers": {
+        "X-AH-Environment": "^\\w+$"
+      },
+      "icon": "acquia-cloud.png",
+      "implies": [
+        "Drupal\\;confidence:95",
+        "Apache",
+        "Percona",
+        "Amazon EC2"
+      ],
+      "website": "https://www.acquia.com/"
+    },
     "CloudCart": {
       "cats": [
         6
@@ -2526,6 +2792,7 @@
       "cats": [
         34
       ],
+      "description": "Cloudera is a software platform for data engineering, data warehousing, machine learning and analytics that runs in the cloud or on-premises.",
       "headers": {
         "Server": "cloudera"
       },
@@ -2539,6 +2806,7 @@
       "cookies": {
         "__cfduid": ""
       },
+      "description": "Cloudflare is a web-infrastructure and website-security company, providing content-delivery-network services, DDoS mitigation, Internet security, and distributed domain-name-server services.",
       "headers": {
         "Server": "^cloudflare$",
         "cf-cache-status": "",
@@ -2548,7 +2816,6 @@
       "js": {
         "CloudFlare": ""
       },
-      "description": "Cloudflare is a web-infrastructure and website-security company, providing content-delivery-network services, DDoS mitigation, Internet security, and distributed domain-name-server services.",
       "website": "http://www.cloudflare.com"
     },
     "Coaster CMS": {
@@ -2583,6 +2850,7 @@
       "cats": [
         19
       ],
+      "description": "CodeMirror is a JavaScript component that provides a code editor in the browser.",
       "icon": "CodeMirror.png",
       "js": {
         "CodeMirror": "",
@@ -2763,9 +3031,9 @@
       "cats": [
         1
       ],
+      "description": "Contentful is an API-first content management platform to create, manage and publish content on any digital channel.",
       "html": "<[^>]+(?:https?:)?//(?:assets|downloads|images|videos)\\.(?:ct?fassets\\.net|contentful\\.com)",
       "icon": "Contentful.svg",
-      "description": "Contentful is an API-first content management platform to create, manage and publish content on any digital channel.",
       "website": "http://www.contentful.com"
     },
     "ConversionLab": {
@@ -2780,6 +3048,7 @@
       "cats": [
         67
       ],
+      "description": "Cookie-Script automatically scans, categorizes and adds description to all cookies found on your website.",
       "icon": "CookieScript.png",
       "scripts": "//cookie-script\\.com/s/",
       "website": "https://cookie-script.com/"
@@ -2815,6 +3084,7 @@
         7
       ],
       "cpe": "cpe:/a:coppermine-gallery:coppermine_photo_gallery",
+      "description": "Cookiebot is a cloud-driven solution that automatically controls cookies and trackers, enabling full GDPR/ePrivacy and CCPA compliance for websites.",
       "html": "<!--Coppermine Photo Gallery ([\\d.]+)\\;version:\\1",
       "icon": "Coppermine.png",
       "implies": "PHP",
@@ -2890,12 +3160,12 @@
         "CraftSessionId": ""
       },
       "cpe": "cpe:/a:craftcms:craft_cms",
+      "description": "Craft CMS is a content management system for building bespoke websites.",
       "headers": {
         "X-Powered-By": "\\bCraft CMS\\b"
       },
       "icon": "Craft CMS.svg",
       "implies": "Yii",
-      "description": "Craft CMS is a content management system for building bespoke websites.",
       "website": "https://craftcms.com"
     },
     "Craft Commerce": {
@@ -2924,6 +3194,7 @@
       "cats": [
         36
       ],
+      "description": "Criteo provides personalized retargeting that works with Internet retailers to serve personalized online display advertisements to consumers who have previously visited the advertiser's website.",
       "icon": "Criteo.svg",
       "js": {
         "Criteo": "",
@@ -2934,7 +3205,6 @@
         "//(?:cas\\.criteo\\.com|(?:[^/]\\.)?criteo\\.net)/",
         "//static\\.criteo\\.net/js/ld/ld\\.js"
       ],
-      "description": "Criteo provides personalized retargeting that works with Internet retailers to serve personalized online display advertisements to consumers who have previously visited the advertiser's website.",
       "website": "http://criteo.com"
     },
     "Cross Pixel": {
@@ -2962,6 +3232,7 @@
       "cats": [
         67
       ],
+      "description": "CrownPeak is a cloud-based Digital Experience Management (DEM) platform that is designed to in the management of digital experiences across multiple touchpoints, especially for marketing and a freer IT architecture.",
       "icon": "Crownpeak.png",
       "scripts": "c\\.evidon\\.com",
       "website": "http://www.crownpeak.com"
@@ -3000,6 +3271,7 @@
       "cats": [
         17
       ],
+      "description": "Cufon is a tool used to overlap real text with an image.",
       "icon": "Cufon.png",
       "js": {
         "Cufon": ""
@@ -3011,9 +3283,9 @@
       "cats": [
         41
       ],
+      "description": "Cybersource is an ecommerce credit card payment system solution.",
       "icon": "cybersource.png",
       "scripts": "cybersource\\..+\\.js",
-      "description": "Cybersource is an ecommerce credit card payment system solution.",
       "website": "https://www.cybersource.com/"
     },
     "D3": {
@@ -3259,9 +3531,18 @@
       "cats": [
         67
       ],
+      "description": "Didomi is a consent management platform helping brands and businesses collect, store and leverage their customer consents.",
       "icon": "didomi.png",
       "scripts": "sdk\\.privacy-center\\.org/.*/loader\\.js",
       "website": "https://www.didomi.io/en/consent-preference-management"
+    },
+    "DigiCert": {
+      "cats": [
+        70
+      ],
+      "certIssuer": "DigiCert",
+      "icon": "DigiCert.svg",
+      "website": "https://www.digicert.com/"
     },
     "DirectAdmin": {
       "cats": [
@@ -3314,6 +3595,7 @@
         15
       ],
       "cpe": "cpe:/a:disqus:disqus_comment_system",
+      "description": "Disqus is a worldwide blog comment hosting service for web sites and online communities that use a networked platform.",
       "html": "<div[^>]+id=\"disqus_thread\"",
       "icon": "Disqus.svg",
       "js": {
@@ -3329,6 +3611,7 @@
         18
       ],
       "cpe": "cpe:/a:djangoproject:django",
+      "description": "Django is a Python-based free and open-source web application framework.",
       "html": "(?:powered by <a[^>]+>Django ?([\\d.]+)?<\\/a>|<input[^>]*name=[\"']csrfmiddlewaretoken[\"'][^>]*>)\\;version:\\1",
       "icon": "Django.png",
       "implies": "Python",
@@ -3351,6 +3634,7 @@
       "cats": [
         4
       ],
+      "description": "Docusaurus is a tool for teams to publish documentation websites.",
       "icon": "docusaurus.svg",
       "implies": [
         "React",
@@ -3432,13 +3716,13 @@
       "cats": [
         36
       ],
+      "description": "DoubleClick Ad Exchange is a real-time marketplace to buy and sell display advertising space.",
       "icon": "DoubleClick.svg",
       "scripts": [
         "googlesyndication\\.com/pagead/show_ads\\.js",
         "tpc\\.googlesyndication\\.com/safeframe",
         "googlesyndication\\.com.*abg\\.js"
       ],
-      "description": "DoubleClick Ad Exchange is a real-time marketplace to buy and sell display advertising space.",
       "website": "http://www.doubleclickbygoogle.com/solutions/digital-marketing/ad-exchange/"
     },
     "DoubleClick Campaign Manager (DCM)": {
@@ -3461,9 +3745,9 @@
       "cats": [
         36
       ],
+      "description": "DoubleClick for Publishers (DFP) is a hosted ad serving platform that streamlines your ad management.",
       "icon": "DoubleClick.svg",
       "scripts": "googletagservices\\.com/tag/js/gpt(?:_mobile)?\\.js",
-      "description": "DoubleClick for Publishers (DFP) is a hosted ad serving platform that streamlines your ad management.",
       "website": "http://www.google.com/dfp"
     },
     "DovetailWRP": {
@@ -3481,6 +3765,7 @@
         4
       ],
       "cpe": "cpe:/a:doxygen:doxygen",
+      "description": "Doxygen is a documentation generator, a tool for writing software reference documentation.",
       "html": "(?:<!-- Generated by Doxygen ([\\d.]+)|<link[^>]+doxygen\\.css)\\;version:\\1",
       "icon": "Doxygen.png",
       "meta": {
@@ -3493,6 +3778,7 @@
         20
       ],
       "cpe": "cpe:/a:adobe:dreamweaver",
+      "description": "Dreamweaver is a development tool for creating, publishing, and managing websites and mobile content.",
       "html": "<!--[^>]*(?:InstanceBeginEditable|Dreamweaver([^>]+)target|DWLayoutDefaultTable)\\;version:\\1",
       "icon": "DreamWeaver.png",
       "js": {
@@ -3502,11 +3788,24 @@
       },
       "website": "https://www.adobe.com/products/dreamweaver.html"
     },
+    "Drift": {
+      "cats": [
+        52
+      ],
+      "description": "Drift is a conversational marketing platform.",
+      "icon": "Drift.svg",
+      "js": {
+        "drift": "",
+        "driftt": ""
+      },
+      "website": "https://www.drift.com/"
+    },
     "Drupal": {
       "cats": [
         1
       ],
       "cpe": "cpe:/a:drupal:drupal",
+      "description": "Drupal is a free and open-source web content management framework.",
       "headers": {
         "Expires": "19 Nov 1978",
         "X-Drupal-Cache": "",
@@ -3522,7 +3821,6 @@
         "generator": "^Drupal(?:\\s([\\d.]+))?\\;version:\\1"
       },
       "scripts": "drupal\\.js",
-      "description": "Drupal is a free and open-source web content management framework.",
       "website": "https://drupal.org"
     },
     "Drupal Commerce": {
@@ -3555,10 +3853,10 @@
         53,
         61
       ],
+      "description": "Duopana is a platform for creating online communities, blogs and managing collaborative content.",
       "html": "(?:<!-- /*BeraCode script)",
       "icon": "Duopana.svg",
       "scripts": "\\*berajs.beracode.com\\*",
-      "description": "Duopana is a platform for creating online communities, blogs and managing collaborative content.",
       "website": "https://duopana.com/"
     },
     "Dynamicweb": {
@@ -3758,6 +4056,7 @@
       "cats": [
         51
       ],
+      "description": "WordPress is a free and open-source content management system used to create a website or blog.",
       "html": [
         "<div class=(?:\"|')[^\"']*elementor",
         "<section class=(?:\"|')[^\"']*elementor",
@@ -3770,7 +4069,6 @@
         "elementorFrontend.getElements": ""
       },
       "scripts": "elementor/assets/js/[^/]+\\.js\\?ver=([\\d.]+)$\\;version:\\1",
-      "description": "WordPress is a free and open-source content management system used to create a website or blog.",
       "website": "https://elementor.com"
     },
     "Elm": {
@@ -3798,6 +4096,7 @@
       "cats": [
         32
       ],
+      "description": "Eloqua is a Software-as-a-Service (SaaS) platform for marketing automation offered that aims to help B2B marketers and organisations manage marketing campaigns and sales lead generation.",
       "icon": "Oracle.png",
       "js": {
         "elqCurESite": "",
@@ -3845,6 +4144,7 @@
         64
       ],
       "cpe": "cpe:/a:envoyproxy:envoy",
+      "description": "Envoy is an open-source edge and service proxy, designed for cloud-native applications.",
       "headers": {
         "Server": "^envoy$",
         "x-envoy-upstream-service-time": ""
@@ -3888,6 +4188,7 @@
       "cats": [
         68
       ],
+      "description": "EqualWeb provides web accessibility, digital accessibility solutions and helps people with disabilities access digital information.",
       "icon": "EqualWeb.png",
       "scripts": "cdn\\.equalweb\\.com.*\\.js",
       "website": "https://www.equalweb.com/"
@@ -3897,6 +4198,7 @@
         27
       ],
       "cpe": "cpe:/a:erlang:erlang%2fotp",
+      "description": "Erlang is a general-purpose, concurrent, functional programming language, and a garbage-collected runtime system.",
       "headers": {
         "Server": "Erlang( OTP/(?:[\\d.ABR-]+))?\\;version:\\1"
       },
@@ -3947,6 +4249,7 @@
       "cats": [
         29
       ],
+      "description": "ExpertRec is a collaborative Web search engine, which allows users share search histories through a web browser.",
       "icon": "ExpertRec.png",
       "scripts": "cse\\.expertrec\\.com/api/js/ci_common\\.js\\?id=.*$",
       "website": "https://expertrec.com"
@@ -3957,6 +4260,7 @@
         22
       ],
       "cpe": "cpe:/a:expressjs:express",
+      "description": "Express is a web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs.",
       "headers": {
         "X-Powered-By": "^Express$"
       },
@@ -4005,6 +4309,7 @@
         "MRHSession": "",
         "TIN": ""
       },
+      "description": "F5's BIG-IP is a family of products covering software and hardware designed around application availability, access control, and security solutions.",
       "headers": {
         "server": "^big-?ip$"
       },
@@ -4015,6 +4320,7 @@
       "cats": [
         29
       ],
+      "description": "FAST ESP is a service-oriented architecture development platform which is geared towards production searchable indexes. It provided a flexible framework for creating ETL applications for efficient indexing of searchable content.",
       "html": "<form[^>]+id=\"fastsearch\"",
       "icon": "FAST ESP.png",
       "website": "http://microsoft.com/enterprisesearch"
@@ -4023,6 +4329,7 @@
       "cats": [
         29
       ],
+      "description": "FAST Search for SharePoint is the search engine for Microsoft's SharePoint collaboration platform. Its purpose is helping SharePoint users locate and retrieve stored enterprise content.",
       "html": "<input[^>]+ name=\"ParametricSearch",
       "icon": "FAST Search for SharePoint.png",
       "implies": [
@@ -4036,6 +4343,7 @@
       "cats": [
         5
       ],
+      "description": "Facebook is an online social media and social networking service.",
       "icon": "Facebook.svg",
       "scripts": "//connect\\.facebook\\.net/[^/]*/[a-z]*\\.js",
       "website": "http://facebook.com"
@@ -4044,6 +4352,7 @@
       "cats": [
         69
       ],
+      "description": "FaceBook sign-in allows uses to create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
       "icon": "Facebook.svg",
       "js": {
         "FB.getLoginStatus": ""
@@ -4054,6 +4363,7 @@
       "cats": [
         68
       ],
+      "description": "Facil-iti is solution for website owners, providing accessibility to disability users and seniors.",
       "icon": "Facil-iti.png",
       "scripts": "ws\\.facil-iti\\.com/tag/faciliti-tag\\.min\\.js",
       "website": "https://www.facil-iti.com/"
@@ -4062,6 +4372,7 @@
       "cats": [
         29
       ],
+      "description": "Fact Finder is a platform which, combines search, navigation, and merchandising solutions to streamline online search and power sales.",
       "html": "<!-- Factfinder",
       "icon": "Fact Finder.png",
       "scripts": "Suggest\\.ff",
@@ -4072,13 +4383,13 @@
       "cats": [
         59
       ],
+      "description": "FancyBox is a tool for displaying images, html content and multi-media in a Mac-style 'lightbox' that floats overtop of web page.",
       "icon": "FancyBox.png",
       "implies": "jQuery",
       "js": {
         "$.fancybox.version": "^(.+)$\\;version:\\1"
       },
       "scripts": "jquery\\.fancybox(?:\\.pack|\\.min)?\\.js(?:\\?v=([\\d.]+))?$\\;version:\\1",
-      "description": "FancyBox is a tool for displaying images, html content and multi-media in a Mac-style 'lightbox' that floats overtop of web page.",
       "website": "http://fancyapps.com/fancybox"
     },
     "FaraPy": {
@@ -4128,13 +4439,13 @@
       "cats": [
         41
       ],
+      "description": "Fat Zebra provides a process of accepting credit card payments online.",
       "html": [
         "<(?:iframe|img|form)[^>]+paynow\\.pmnts\\.io",
         "<(?:iframe)[^>]+FatZebraFrame"
       ],
       "icon": "fatzebra.png",
       "scripts": "paynow\\.pmnts\\.io",
-      "description": "Fat Zebra provides a process of accepting credit card payments online.",
       "website": "https://www.fatzebra.com/"
     },
     "Fat-Free Framework": {
@@ -4185,6 +4496,7 @@
       "cats": [
         34
       ],
+      "description": "Firebase is a Backend-as-a-Service (Baas) for creating mobile and web applications.",
       "icon": "Firebase.png",
       "js": {
         "firebase.SDK_VERSION": "([\\d.]+)$\\;version:\\1"
@@ -4259,6 +4571,7 @@
       "cats": [
         5
       ],
+      "description": "FlexSlider is a free jQuery slider plugin.",
       "icon": "FlexSlider.png",
       "implies": "jQuery",
       "scripts": [
@@ -4317,12 +4630,17 @@
       "cats": [
         17
       ],
+      "description": "Font Awesome is a font and icon toolkit based on CSS and Less.",
       "html": [
         "<link[^>]* href=[^>]+(?:([\\d.]+)/)?(?:css/)?font-awesome(?:\\.min)?\\.css\\;version:\\1",
-        "<link[^>]* href=[^>]*?(?:F|f)o(?:n|r)t-?(?:A|a)wesome(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)\\;version:\\1"
+        "<link[^>]* href=[^>]*?(?:F|f)o(?:n|r)t-?(?:A|a)wesome(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)\\;version:\\1",
+        "<link[^>]* href=[^>]*kit\\-pro\\.fontawesome\\.com/releases/v([0-9.]+)/\\;version:\\1"
       ],
       "icon": "font-awesome.svg",
-      "scripts": "(?:F|f)o(?:n|r)t-?(?:A|a)wesome(?:.*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)\\;version:\\1",
+      "scripts": [
+        "(?:F|f)o(?:n|r)t-?(?:A|a)wesome(?:.*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)",
+        "kit\\.fontawesome\\.com/([0-9a-z]+).js"
+      ],
       "website": "https://fontawesome.com/"
     },
     "Fork CMS": {
@@ -4423,6 +4741,7 @@
       "cats": [
         52
       ],
+      "description": "Freshchat is a cloud-hosted live messaging and engagement application.",
       "icon": "freshchat.png",
       "scripts": "wchat\\.freshchat\\.com/js/widget\\.js",
       "website": "https://www.freshworks.com/live-chat-software/"
@@ -4452,6 +4771,7 @@
         20
       ],
       "cpe": "cpe:/a:microsoft:frontpage",
+      "description": "FrontPage is a program for developing and maintaining websites.",
       "icon": "FrontPage.png",
       "meta": {
         "ProgId": "^FrontPage\\.",
@@ -4504,6 +4824,7 @@
       "cats": [
         12
       ],
+      "description": "GSAP is an animation library that allows you to create animations with JavaScript.",
       "icon": "TweenMax.png",
       "js": {
         "TweenMax": "",
@@ -4556,6 +4877,7 @@
         57,
         12
       ],
+      "description": "Gatsby is a React-based open-source framework with performance, scalability and security built-in.",
       "html": [
         "<div id=\"___gatsby\">",
         "<style id=\"gatsby-inlined-css\">"
@@ -4568,7 +4890,6 @@
       "meta": {
         "generator": "^Gatsby(?: ([0-9.]+))?$\\;version:\\1"
       },
-      "description": "Gatsby is a React-based open source framework with performance, scalability and security built-in.",
       "website": "https://www.gatsbyjs.org/"
     },
     "Gauges": {
@@ -4680,6 +5001,7 @@
       "cats": [
         11
       ],
+      "description": "Ghost is a free and open-source blogging platform written in JavaScript, designed to simplify the process of online publishing for individual bloggers as well as online publications.",
       "headers": {
         "X-Ghost-Cache-Status": ""
       },
@@ -4694,6 +5016,7 @@
       "cats": [
         4
       ],
+      "description": "GitBook is a command-line tool for creating documentation using Git and Markdown.",
       "icon": "GitBook.png",
       "meta": {
         "generator": "GitBook ([\\d.]+)?\\;version:\\1"
@@ -4705,6 +5028,7 @@
       "cats": [
         62
       ],
+      "description": "GitHub Pages is a static site hosting service.",
       "headers": {
         "Server": "^GitHub\\.com$",
         "X-GitHub-Request-Id": ""
@@ -4806,6 +5130,7 @@
       "cats": [
         17
       ],
+      "description": "Glyphicons are icon fonts which you can use in your web projects.",
       "html": "(?:<link[^>]* href=[^>]+glyphicons(?:\\.min)?\\.css|<img[^>]* src=[^>]+glyphicons)",
       "icon": "Glyphicons.png",
       "website": "http://glyphicons.com"
@@ -4899,6 +5224,7 @@
       "cats": [
         36
       ],
+      "description": "Google AdSense is a program run by Google through which website publishers serve advertisements that are targeted to the site content and audience.",
       "icon": "Google AdSense.svg",
       "js": {
         "Goog_AdSense_": "",
@@ -4911,7 +5237,6 @@
         "2mdn\\.net",
         "ad\\.ca\\.doubleclick\\.net"
       ],
-      "description": "Google AdSense is a program run by Google through which website publishers serve advertisements that are targeted to the site content and audience.",
       "website": "https://www.google.fr/adsense/start/"
     },
     "Google Analytics": {
@@ -4923,6 +5248,7 @@
         "_ga": "",
         "_gat": ""
       },
+      "description": "Google Analytics is a free web analytics service that tracks and reports website traffic.",
       "html": "<amp-analytics [^>]*type=[\"']googleanalytics[\"']",
       "icon": "Google Analytics.svg",
       "js": {
@@ -4930,20 +5256,19 @@
         "gaGlobal": ""
       },
       "scripts": "google-analytics\\.com\\/(?:ga|urchin|analytics)\\.js",
-      "description": "Google Analytics is a free web analytics service that tracks and reports website traffic.",
       "website": "http://google.com/analytics"
     },
     "Google Analytics Enhanced eCommerce": {
       "cats": [
         10
       ],
+      "description": "Google analytics enhanced ecommerce is a plug-in which enables the measurement of user interactions with products on ecommerce websites.",
       "icon": "Google Analytics.svg",
       "implies": "Google Analytics",
       "js": {
         "gaplugins.EC": ""
       },
       "scripts": "google-analytics\\.com\\/plugins\\/ua\\/(?:ec|ecommerce)\\.js",
-      "description": "Google analytics enhanced ecommerce is a plug-in which enables the measurement of user interactions with products on ecommerce websites.",
       "website": "https://developers.google.com/analytics/devguides/collection/analyticsjs/enhanced-ecommerce"
     },
     "Google App Engine": {
@@ -4992,6 +5317,7 @@
       "cats": [
         17
       ],
+      "description": "Google Font API is a web service that supports open-source font files that can be used on your web designs.",
       "html": "<link[^>]* href=[^>]+fonts\\.(?:googleapis|google)\\.com",
       "icon": "Google Font API.png",
       "js": {
@@ -5004,6 +5330,7 @@
       "cats": [
         35
       ],
+      "description": "Google Maps is a web mapping service. It offers satellite imagery, aerial photography, street maps, 360° interactive panoramic views of streets, real-time traffic conditions, and route planning for traveling by foot, car, bicycle and air, or public transportation.",
       "icon": "Google Maps.png",
       "scripts": [
         "(?:maps\\.google\\.com/maps\\?file=api(?:&v=([\\d.]+))?|maps\\.google\\.com/maps/api/staticmap)\\;version:API v\\1",
@@ -5027,15 +5354,16 @@
       "cats": [
         41
       ],
+      "description": "Google Pay is a digital wallet platform and online payment system developed by Google to power in-app and tap-to-pay purchases on mobile devices, enabling users to make payments with Android phones, tablets or watches.",
       "html": "<[^>]+aria-labelledby=\"pi-google_pay",
       "icon": "Google.svg",
-      "description": "Google Pay is a digital wallet platform and online payment system developed by Google to power in-app and tap-to-pay purchases on mobile devices, enabling users to make payments with Android phones, tablets or watches.",
       "website": "https://pay.google.com"
     },
     "Google Plus": {
       "cats": [
         5
       ],
+      "description": "Google Plus is a social network.",
       "icon": "Google Plus.svg",
       "scripts": "apis\\.google\\.com/js/[a-z]*\\.js",
       "website": "http://plus.google.com"
@@ -5044,6 +5372,7 @@
       "cats": [
         69
       ],
+      "description": "Google Sign-In is a secure authentication system that reduces the burden of login for users, by enabling them to sign in with their Google account.",
       "html": [
         "<meta[^>]*google-signin-client_id",
         "<meta[^>]*google-signin-scope",
@@ -5069,6 +5398,7 @@
       "cats": [
         42
       ],
+      "description": "Google Tag Manager is a tag management system (TMS) that allows you to quickly and easily update measurement codes and related code fragments collectively known as tags on your website or mobile app.",
       "html": [
         "googletagmanager\\.com/ns\\.html[^>]+></iframe>",
         "<!-- (?:End )?Google Tag Manager -->"
@@ -5107,6 +5437,7 @@
         18
       ],
       "cpe": "cpe:/a:google:web_toolkit",
+      "description": "Google Web Toolkit (GWT) is an open-source Java software development framework that makes writing AJAX applications.",
       "icon": "Google Web Toolkit.png",
       "implies": "Java",
       "js": {
@@ -5167,6 +5498,7 @@
       "cats": [
         19
       ],
+      "description": "Gravatar is a service for providing globally unique avatars.",
       "html": "<[^>]+gravatar\\.com/avatar/",
       "icon": "Gravatar.png",
       "js": {
@@ -5205,12 +5537,12 @@
       "cats": [
         57
       ],
+      "description": "Gridsome is a free and open-source Vue-powered static site generator for building static websites.",
       "icon": "Gridsome.svg",
       "implies": "Vue.js",
       "meta": {
         "generator": "^Gridsome v([\\d.]+)$\\;version:\\1"
       },
-      "description": "Gridsome is a free and open-source Vue-powered static site generator for building static websites.",
       "website": "https://gridsome.org"
     },
     "GrowingIO": {
@@ -5243,6 +5575,7 @@
       "cats": [
         35
       ],
+      "description": "HERE provides mapping and location data to individuals and companies.",
       "icon": "HERE.png",
       "scripts": "https?://js\\.cit\\.api\\.here\\.com/se/([\\d.]+)\\/\\;version:\\1",
       "website": "http://developer.here.com"
@@ -5294,6 +5627,7 @@
       "cats": [
         19
       ],
+      "description": "HTTP/2 (originally named HTTP/2.0) is a major revision of the HTTP network protocol used by the World Wide Web.",
       "excludes": "SPDY",
       "headers": {
         "X-Firefox-Spdy": "h2"
@@ -5305,6 +5639,7 @@
       "cats": [
         4
       ],
+      "description": "Haddock is a tool for automatically generating documentation from annotated Haskell source code.",
       "html": "<p>Produced by <a href=\"http://www\\.haskell\\.org/haddock/\">Haddock</a> version ([0-9.]+)</p>\\;version:\\1",
       "scripts": "haddock-util\\.js",
       "website": "http://www.haskell.org/haddock/"
@@ -5338,6 +5673,7 @@
       "cats": [
         12
       ],
+      "description": "Handlebars is a JavaScript library used to create reusable webpage templates.",
       "html": "<[^>]*type=[^>]text\\/x-handlebars-template",
       "icon": "Handlebars.png",
       "js": {
@@ -5403,6 +5739,7 @@
       "cats": [
         62
       ],
+      "description": "Heroku is a cloud platform as a service (PaaS) supporting several programming languages.",
       "headers": {
         "Via": "[\\d.-]+ vegur$"
       },
@@ -5417,15 +5754,15 @@
       "cats": [
         57
       ],
+      "description": "Hexo is a blog framework powered by Node.js.",
       "html": [
         "Powered by <a href=\"https?://hexo\\.io/?\"[^>]*>Hexo</"
       ],
       "icon": "Hexo.png",
+      "implies": "Node.js",
       "meta": {
         "generator": "Hexo(?: v?([\\d.]+))?\\;version:\\1"
       },
-      "implies": "Node.js",
-      "description": "Hexo is a blog framework powered by Node.js.",
       "website": "https://hexo.io"
     },
     "Hiawatha": {
@@ -5476,6 +5813,7 @@
       "cats": [
         68
       ],
+      "description": "HikeOrders web accessibility automated plugin.",
       "icon": "HikeOrders.png",
       "scripts": "hikeorders\\.com/main/assets/js/hko-accessibility\\.min\\.js",
       "website": "https://hikeorders.com/"
@@ -5524,6 +5862,7 @@
       "cats": [
         10
       ],
+      "description": "Hotjar is a suite of analytic tools to assist in the gathering of qualitative data, providing feedback through tools such as heatmaps, session recordings, and surveys.",
       "icon": "Hotjar.png",
       "js": {
         "HotLeadfactory": "",
@@ -5531,13 +5870,13 @@
         "hj.apiUrlBase": ""
       },
       "scripts": "//static\\.hotjar\\.com/c/hotjar-",
-      "description": "Hotjar is a suite of analytic tools to assist in the gathering of qualitative data, providing feedback through tools such as heatmaps, session recordings, and surveys.",
       "website": "https://www.hotjar.com"
     },
     "HubSpot": {
       "cats": [
         32
       ],
+      "description": "HubSpot is a marketing and sales software that helps companies attract visitors, convert leads, and close customers.",
       "html": "<!-- Start of Async HubSpot",
       "icon": "HubSpot.png",
       "js": {
@@ -5553,12 +5892,12 @@
       "cats": [
         57
       ],
+      "description": "Hugo is an open-source static site generator written in Go.",
       "html": "powered by <a [^>]*href=\"http://hugo\\.spf13\\.com",
       "icon": "Hugo.png",
       "meta": {
         "generator": "Hugo ([\\d.]+)?\\;version:\\1"
       },
-      "description": "Hugo is an open-source static site generator written in Go.",
       "website": "http://gohugo.io"
     },
     "IBM Coremetrics": {
@@ -5574,6 +5913,7 @@
         64
       ],
       "cpe": "cpe:/a:ibm:datapower_gateway",
+      "description": "IBM DataPower Gateway is a single multi-channel gateway designed to help provide security, control, integration and optimized access to a full range of mobile, web, application programming interface (API), service-oriented architecture (SOA), B2B and cloud workloads.",
       "headers": {
         "X-Backside-Transport": "",
         "X-Global-Transaction-ID": ""
@@ -5608,6 +5948,7 @@
         22
       ],
       "cpe": "cpe:/a:microsoft:internet_information_server",
+      "description": "Internet Information Services (IIS) is an extensible web server software created by Microsoft for use with the Windows NT family.",
       "headers": {
         "Server": "^(?:Microsoft-)?IIS(?:/([\\d.]+))?\\;version:\\1"
       },
@@ -5667,6 +6008,14 @@
         "\\.myideasoft\\.com/"
       ],
       "website": "https://www.ideasoft.com"
+    },
+    "Identrust": {
+      "cats": [
+        70
+      ],
+      "certIssuer": "TrustID",
+      "icon": "Identrust.svg",
+      "website": "https://www.identrust.com/"
     },
     "IdoSell Shop": {
       "cats": [
@@ -5801,6 +6150,7 @@
         32
       ],
       "cpe": "cpe:/a:infusionsoft_project:infusionsoft",
+      "description": "Infusionsoft is a cloud-based email marketing platform and customer relationship management (CRM) system.",
       "html": [
         "<input [^>]*name=\"infusionsoft_version\" [^>]*value=\"([^>]*)\" [^>]*\\/>\\;version:\\1",
         "<input [^>]*value=\"([^>]*)\" [^>]*name=\"infusionsoft_version\" [^>]*\\/>\\;version:\\1"
@@ -5833,6 +6183,7 @@
         52,
         58
       ],
+      "description": "Instabot is a conversion chatbot that understands your users, and curates information, answers questions, captures contacts, and books meetings instantly.",
       "icon": "Instabot.png",
       "js": {
         "Instabot": ""
@@ -5871,6 +6222,7 @@
       "cats": [
         15
       ],
+      "description": "IntenseDebate is a blog commenting system that supports Typepad, Blogger and Wordpress blogs. The system allows blog owners to track and moderate comments from one place with features like threading, comment analytics, user reputation, and comment aggregation.",
       "icon": "IntenseDebate.png",
       "scripts": "intensedebate\\.com",
       "website": "http://intensedebate.com"
@@ -5879,18 +6231,19 @@
       "cats": [
         10
       ],
+      "description": "Intercom is a Conversational Relationship Platform that helps businesses build better customer relationships through personalized, messenger-based experiences.",
       "icon": "Intercom.svg",
       "js": {
         "Intercom": ""
       },
       "scripts": "(?:api\\.intercom\\.io/api|static\\.intercomcdn\\.com/intercom\\.v1)",
-      "description": "Intercom is a Conversational Relationship Platform that helps businesses build better customer relationships through personalized, messenger-based experiences.",
       "website": "https://www.intercom.com"
     },
     "Intercom Articles": {
       "cats": [
         4
       ],
+      "description": "Intercom Articles is a tool to create, organize and publish help articles.",
       "html": "<a href=\"https://www.intercom.com/intercom-link[^\"]+solution=customer-support[^>]+>We run on Intercom",
       "icon": "Intercom.svg",
       "website": "https://www.intercom.com/articles"
@@ -5911,6 +6264,7 @@
       "cookies": {
         "INVENIOSESSION": ""
       },
+      "description": "Invenio is an open-source software framework for large-scale digital repositories that provides the tools for management of digital assets in an institutional repository and research data management systems.",
       "html": "(?:Powered by|System)\\s+(?:CERN )?<a (?:class=\"footer\" )?href=\"http://(?:cdsware\\.cern\\.ch(?:/invenio)?|invenio-software\\.org|cern\\.ch/invenio)(?:/)?\">(?:CDS )?Invenio</a>\\s*v?([\\d\\.]+)?\\;version:\\1",
       "icon": "Invenio.png",
       "website": "http://invenio-software.org"
@@ -5930,6 +6284,7 @@
       "cats": [
         17
       ],
+      "description": "Ionicons is an open-source icon set crafted for web, iOS, Android, and desktop apps.",
       "html": "<link[^>]* href=[^>]+ionicons(?:\\.min)?\\.css",
       "icon": "Ionicons.png",
       "website": "http://ionicons.com"
@@ -6065,6 +6420,7 @@
       "cookies": {
         "JSESSIONID": ""
       },
+      "description": "Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.",
       "icon": "Java.png",
       "website": "http://java.com"
     },
@@ -6117,6 +6473,7 @@
       "cats": [
         4
       ],
+      "description": "Javadoc is a tool used for generating Java code documentation in HTML format from Java source code.",
       "html": "<!-- Generated by javadoc -->",
       "icon": "Java.png",
       "website": "https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html"
@@ -6126,6 +6483,7 @@
         57
       ],
       "cpe": "cpe:/a:jekyllrb:jekyll",
+      "description": "Jekyll is a blog-aware, static site generator for personal, project, or organization sites.",
       "html": [
         "Powered by <a href=\"https?://jekyllrb\\.com\"[^>]*>Jekyll</",
         "<!-- Created with Jekyll Now -",
@@ -6135,13 +6493,13 @@
       "meta": {
         "generator": "Jekyll (v[\\d.]+)?\\;version:\\1"
       },
-      "description": "Jekyll is a blog-aware, static site generator for personal, project, or organization sites.",
       "website": "http://jekyllrb.com"
     },
     "Jenkins": {
       "cats": [
         44
       ],
+      "description": "Jenkins is an open-source automation tool written in Java with plugins built for Continuous Integration (CI) purposes.",
       "headers": {
         "X-Jenkins": "([\\d.]+)\\;version:\\1"
       },
@@ -6214,6 +6572,7 @@
       "cats": [
         52
       ],
+      "description": "Jitsi is a free and open-source multiplatform voice (VoIP), videoconferencing and instant messaging applications for the web platform.",
       "icon": "Jitsi.png",
       "scripts": "lib-jitsi-meet.*\\.js",
       "website": "https://jitsi.org"
@@ -6251,6 +6610,7 @@
         1
       ],
       "cpe": "cpe:/a:joomla:joomla",
+      "description": "Joomla is a free and open-source content management system for publishing web content.",
       "headers": {
         "X-Content-Encoded-By": "Joomla! ([\\d.]+)\\;version:\\1"
       },
@@ -6265,7 +6625,6 @@
         "generator": "Joomla!(?: ([\\d.]+))?\\;version:\\1"
       },
       "url": "option=com_",
-      "description": "Joomla is a free and open-source content management system for publishing web content.",
       "website": "https://www.joomla.org"
     },
     "K2": {
@@ -6349,6 +6708,7 @@
       "cats": [
         66
       ],
+      "description": "Kendo UI is a HTML5 user interface framework for building interactive and high-performance websites and applications.",
       "html": "<link[^>]*\\s+href=[^>]*styles/kendo\\.common(?:\\.min)?\\.css[^>]*/>",
       "icon": "Kendo UI.png",
       "implies": "jQuery",
@@ -6356,7 +6716,6 @@
         "kendo": "",
         "kendo.version": "^(.+)$\\;version:\\1"
       },
-      "description": "Kendo UI is a HTML5 user interface framework for building interactive and high-performance websites and applications.",
       "website": "https://www.telerik.com/kendo-ui"
     },
     "Kentico CMS": {
@@ -6404,6 +6763,7 @@
         25
       ],
       "cpe": "cpe:/a:elasticsearch:kibana",
+      "description": "Kibana is an open-source data visualization dashboard for Elasticsearch. It provides visualization capabilities on top of the content indexed on an Elasticsearch cluster. Users can create bar, line and scatter plots, or pie charts and maps on top of large volumes of data.",
       "headers": {
         "kbn-name": "kibana",
         "kbn-version": "^([\\d.]+)$\\;version:\\1"
@@ -6443,11 +6803,11 @@
         6,
         5
       ],
+      "description": "Klarna Checkout is a complete payment solution where Klarna handles a store's entire checkout.",
       "icon": "Klarna.svg",
       "js": {
         "_klarnaCheckout": ""
       },
-      "description": "Klarna Checkout is a complete payment solution where Klarna handles a store's entire checkout.",
       "website": "https://www.klarna.com/international/"
     },
     "Knockout.js": {
@@ -6502,6 +6862,7 @@
         50
       ],
       "cpe": "cpe:/a:koha:koha",
+      "description": "Koha is an open-source Integrated Library System (ILS).",
       "html": [
         "<input name=\"koha_login_context\" value=\"intranet\" type=\"hidden\">",
         "<a href=\"/cgi-bin/koha/"
@@ -6632,6 +6993,7 @@
       "cats": [
         58
       ],
+      "description": "LOU is a Digital Adoption Platform that streamlines user onboarding and training.",
       "icon": "LOU.png",
       "scripts": "cdn\\.louassist\\.com*",
       "website": "https://www.louassist.com"
@@ -6655,30 +7017,31 @@
         "laravel_session": ""
       },
       "cpe": "cpe:/a:laravel:laravel",
+      "description": "Laravel is a free, open-source PHP web framework.",
       "icon": "Laravel.svg",
       "implies": "PHP",
       "js": {
         "Laravel": ""
       },
-      "description": "Laravel is a free, open-source PHP web framework.",
       "website": "https://laravel.com"
     },
     "Laterpay": {
       "cats": [
         41
       ],
+      "description": "Laterpay is a service that simplifies payments on the Internet. In addition to the classic immediate purchase option, Laterpay also allows you to buy digital content such as articles or videos now and pay later.",
       "icon": "laterpay.png",
       "meta": {
         "laterpay:connector:callbacks:on_user_has_access": "deobfuscateText"
       },
       "scripts": "https?://connectormwi\\.laterpay\\.net/([0-9.]+)[a-zA-z-]*/live/[\\w-]+\\.js\\;version:\\1",
-      "description": "Laterpay is a service that simplifies payments on the Internet. In addition to the classic immediate purchase option, Laterpay also allows you to buy digital content such as articles or videos now and pay later.",
       "website": "https://www.laterpay.net/"
     },
     "Leaflet": {
       "cats": [
         35
       ],
+      "description": "Leaflet is the open-source JavaScript library for mobile-friendly interactive maps.",
       "icon": "Leaflet.png",
       "js": {
         "L.DistanceGrid": "",
@@ -6695,6 +7058,14 @@
       "html": "<link[^>]+ rel=\"stylesheet/less\"",
       "icon": "Less.png",
       "website": "http://lesscss.org"
+    },
+    "Let's Encrypt": {
+      "cats": [
+        70
+      ],
+      "certIssuer": "Let's Encrypt",
+      "icon": "Lets Encrypt.svg",
+      "website": "https://letsencrypt.org/"
     },
     "Liferay": {
       "cats": [
@@ -6774,6 +7145,7 @@
       "cats": [
         5
       ],
+      "description": "LinkedIn is the world's largest professional networking platform.",
       "icon": "Linkedin.svg",
       "scripts": "//platform\\.linkedin\\.com/in\\.js",
       "website": "http://linkedin.com"
@@ -6804,6 +7176,7 @@
         22
       ],
       "cpe": "cpe:/a:litespeedtech:litespeed_web_server",
+      "description": "LiteSpeed is a high-scalability web server.",
       "headers": {
         "Server": "^LiteSpeed$"
       },
@@ -6851,6 +7224,7 @@
       "cats": [
         52
       ],
+      "description": "LiveAgent is an online live chat platform. The software provides a ticket management system.",
       "icon": "LiveAgent.png",
       "js": {
         "LiveAgent": ""
@@ -6861,6 +7235,7 @@
       "cats": [
         52
       ],
+      "description": "LiveChat is an online customer service software with online chat, help desk software, and web analytics capabilities.",
       "icon": "LiveChat.png",
       "scripts": "cdn\\.livechatinc\\.com/.*tracking\\.js",
       "website": "http://livechatinc.com"
@@ -6870,6 +7245,7 @@
         52,
         53
       ],
+      "description": "LiveHelp is an online chat tool.",
       "icon": "LiveHelp.png",
       "js": {
         "LHready": ""
@@ -6880,6 +7256,7 @@
       "cats": [
         11
       ],
+      "description": "LiveJournal is a social networking service where users can keep a blog, journal or diary.",
       "icon": "LiveJournal.png",
       "url": "\\.livejournal\\.com",
       "website": "http://www.livejournal.com"
@@ -6888,6 +7265,7 @@
       "cats": [
         52
       ],
+      "description": "LivePerson is a tool for conversational chatbots and messaging.",
       "icon": "LivePerson.png",
       "scripts": "^https?://lptag\\.liveperson\\.net/tag/tag\\.js",
       "website": "https://www.liveperson.com/"
@@ -6910,6 +7288,7 @@
       "cats": [
         15
       ],
+      "description": "Livefyre is a platform that integrates with the social web to boost social interaction.",
       "html": "<[^>]+(?:id|class)=\"livefyre",
       "icon": "Livefyre.png",
       "js": {
@@ -6978,6 +7357,7 @@
         59
       ],
       "cpe": "cpe:/a:lodash:lodash",
+      "description": "Lodash is a JavaScript library which provides utility functions for common programming tasks using the functional programming paradigm.",
       "excludes": "Underscore.js",
       "icon": "Lo-dash.png",
       "js": {
@@ -6986,13 +7366,13 @@
         "_.templateSettings.imports._.templateSettings.imports._.VERSION": "^(.+)$\\;version:\\1"
       },
       "scripts": "lodash.*\\.js",
-      "description": "Lodash is a JavaScript library which provides utility functions for common programming tasks using the functional programming paradigm.",
       "website": "http://www.lodash.com"
     },
     "Login with Amazon": {
       "cats": [
         69
       ],
+      "description": "Login with Amazon allows you use your Amazon user name and password to sign into and share information with participating third-party websites or apps.",
       "icon": "Amazon.svg",
       "js": {
         "onAmazonLoginReady": ""
@@ -7004,6 +7384,7 @@
         22,
         38
       ],
+      "description": "Logitech Media Server is a streaming audio server.",
       "headers": {
         "Server": "Logitech Media Server(?: \\(([\\d\\.]+))?\\;version:\\1"
       },
@@ -7040,6 +7421,7 @@
         27
       ],
       "cpe": "cpe:/a:lua:lua",
+      "description": "Lua is a multi-paradigm programming language designed primarily for embedded use in applications.",
       "headers": {
         "X-Powered-By": "\\bLua(?: ([\\d.]+))?\\;version:\\1"
       },
@@ -7051,6 +7433,7 @@
         34
       ],
       "cpe": "cpe:/a:apache:lucene",
+      "description": "Lucene is a free and open-source search engine software library.",
       "icon": "Lucene.png",
       "implies": "Java",
       "website": "http://lucene.apache.org/core/"
@@ -7111,6 +7494,7 @@
         "frontend": "\\;confidence:50"
       },
       "cpe": "cpe:/a:magento:magento",
+      "description": "Magento is an open-source ecommerce platform written in PHP.",
       "html": [
         "<script [^>]+data-requiremodule=\"mage/\\;version:2",
         "<script [^>]+data-requiremodule=\"Magento_\\;version:2",
@@ -7130,7 +7514,6 @@
         "skin/frontend/(?:default|(enterprise))\\;version:\\1?Enterprise:Community",
         "static/_requirejs\\;confidence:50\\;version:2"
       ],
-      "description": "Magento is an open-source ecommerce platform written in PHP.",
       "website": "https://magento.com"
     },
     "MailChimp": {
@@ -7138,6 +7521,7 @@
         32
       ],
       "cpe": "cpe:/a:thinkshout:mailchimp",
+      "description": "Mailchimp is a marketing automation platform and email marketing service.",
       "html": [
         "<form [^>]*data-mailchimp-url",
         "<form [^>]*id=\"mc-embedded-subscribe-form\"",
@@ -7150,7 +7534,6 @@
         "s3\\.amazonaws\\.com/downloads\\.mailchimp\\.com/js/mc-validate\\.js",
         "cdn-images\\.mailchimp\\.com/[^>]*\\.css"
       ],
-      "description": "Mailchimp is a marketing automation platform and email marketing service.",
       "website": "http://mailchimp.com"
     },
     "Make-Sense": {
@@ -7206,6 +7589,7 @@
         34
       ],
       "cpe": "cpe:/a:mariadb_project:mariadb",
+      "description": "MariaDB is an open-source relational database management system compatible with MySQL.",
       "icon": "mariadb.svg",
       "website": "https://mariadb.org"
     },
@@ -7213,6 +7597,7 @@
       "cats": [
         12
       ],
+      "description": "Marionette is a composite application library for Backbone.js that aims to simplify the construction of large scale JavaScript applications. It is a collection of common design and implementation patterns found in applications.",
       "icon": "Marionette.js.svg",
       "implies": [
         "Underscore.js",
@@ -7241,44 +7626,58 @@
       "cats": [
         32
       ],
+      "description": "Marketo develops and sells marketing automation software for account-based marketing and other marketing services and products including SEO and content creation.",
       "icon": "Marketo.png",
       "js": {
         "Munchkin": ""
       },
       "scripts": "munchkin\\.marketo\\.net/munchkin\\.js",
-      "description": "Marketo develops and sells marketing automation software for account-based marketing and other marketing services and products including SEO and content creation.",
       "website": "https://www.marketo.com"
     },
     "Mastercard": {
       "cats": [
         41
       ],
+      "description": "MasterCard facilitates electronic funds transfers throughout the world, most commonly through branded credit cards, debit cards and prepaid cards.",
       "html": "<[^>]+aria-labelledby=\"pi-mastercard",
       "icon": "Mastercard.svg",
-      "description": "MasterCard facilitates electronic funds transfers throughout the world, most commonly through branded credit cards, debit cards and prepaid cards.",
       "website": "https://www.mastercard.com"
+    },
+    "MasterkinG32 Framework": {
+      "cats": [
+        18
+      ],
+      "description": "MasterkinG32 framework.",
+      "headers": {
+        "X-Powered-Framework": "MasterkinG(?:)"
+      },
+      "icon": "Masterking32.png",
+      "meta": {
+        "generator": "^MasterkinG(?:)"
+      },
+      "website": "https://masterking32.com"
     },
     "Material Design Lite": {
       "cats": [
         66
       ],
+      "description": "Material Design Lite is a library of components for web developers.",
       "html": "<link[^>]* href=\"[^\"]*material(?:\\.[\\w]+-[\\w]+)?(?:\\.min)?\\.css",
       "icon": "Material Design Lite.png",
       "js": {
         "MaterialIconToggle": ""
       },
       "scripts": "(?:/([\\d.]+))?/material(?:\\.min)?\\.js\\;version:\\1",
-      "description": "Material Design Lite is a library of components for web developers.",
       "website": "https://getmdl.io"
     },
     "Materialize CSS": {
       "cats": [
         66
       ],
+      "description": "Materialize CSS is a css framework which is used to create responsive websites.",
       "html": "<link[^>]* href=\"[^\"]*materialize(?:\\.min)?\\.css",
       "icon": "Materialize CSS.png",
       "scripts": "materialize(?:\\.min)?\\.js",
-      "description": "Materialize CSS is a css framework which is used to create responsive websites.",
       "website": "http://materializecss.com"
     },
     "MathJax": {
@@ -7319,6 +7718,7 @@
       "cats": [
         42
       ],
+      "description": "Matomo Tag Manager manages tracking and marketing tags.",
       "icon": "Matomo.png",
       "js": {
         "window.MatomoTagManager": ""
@@ -7349,6 +7749,7 @@
         32
       ],
       "cpe": "cpe:/a:mautic:mautic",
+      "description": "Mautic is a free and open-source marketing automation tool for Content Management, Social Media, Email Marketing, and can be used for the integration of social networks, campaign management, forms, questionnaires, reports, etc.",
       "icon": "mautic.svg",
       "js": {
         "MauticTrackingObject": ""
@@ -7414,7 +7815,9 @@
       "icon": "MediaWiki.png",
       "implies": "PHP",
       "js": {
-        "mw.util.toggleToc": ""
+        "mw.util.toggleToc": "",
+        "wgTitle": "",
+        "wgVersion": "^(.+)$\\;version:\\1"
       },
       "meta": {
         "generator": "^MediaWiki ?(.+)$\\;version:\\1"
@@ -7425,6 +7828,7 @@
       "cats": [
         11
       ],
+      "description": "Medium is an online publishing platform.",
       "headers": {
         "X-Powered-By": "^Medium$"
       },
@@ -7547,6 +7951,7 @@
         "ASPSESSION": ""
       },
       "cpe": "cpe:/a:microsoft:asp.net",
+      "description": "ASP.NET is an open-source, server-side web-application framework designed for web development to produce dynamic web pages.",
       "headers": {
         "X-AspNet-Version": "(.+)\\;version:\\1",
         "X-Powered-By": "^ASP\\.NET"
@@ -7562,6 +7967,7 @@
         20
       ],
       "cpe": "cpe:/a:microsoft:excel",
+      "description": "Microsoft Excel is an electronic spreadsheet program used for storing, organizing, and manipulating data.",
       "html": "(?:<html [^>]*xmlns:w=\"urn:schemas-microsoft-com:office:excel\"|<!--\\s*(?:START|END) OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD\\s*-->|<div [^>]*x:publishsource=\"?Excel\"?)",
       "icon": "Microsoft Excel.svg",
       "meta": {
@@ -7585,6 +7991,7 @@
         20
       ],
       "cpe": "cpe:/a:microsoft:powerpoint",
+      "description": "Microsoft PowerPoint is a tool to create presentations using simple drag and drop tools.",
       "html": "(?:<html [^>]*xmlns:w=\"urn:schemas-microsoft-com:office:powerpoint\"|<link rel=\"?Presentation-XML\"? href=\"?[^\"]+\\.xml\"?>|<o:PresentationFormat>[^<]+</o:PresentationFormat>[^!]+<o:Slides>\\d+</o:Slides>(?:[^!]+<o:Version>([\\d.]+)</o:Version>)?)\\;version:\\1",
       "icon": "Microsoft PowerPoint.svg",
       "meta": {
@@ -7598,6 +8005,7 @@
         20
       ],
       "cpe": "cpe:/a:microsoft:publisher",
+      "description": "Microsoft Publisher is an application that allows you to create professional documents such as newsletters, postcards, flyers, invitations, brochures.",
       "html": "(?:<html [^>]*xmlns:w=\"urn:schemas-microsoft-com:office:publisher\"|<!--[if pub]><xml>)",
       "icon": "Microsoft Publisher.svg",
       "meta": {
@@ -7611,6 +8019,7 @@
         1
       ],
       "cpe": "cpe:/a:microsoft:sharepoint_server",
+      "description": "SharePoint is a cloud-based collaborative platform to manage and share content.",
       "headers": {
         "MicrosoftSharePointTeamServices": "^(.+)$\\;version:\\1",
         "SPRequestGuid": "",
@@ -7625,7 +8034,6 @@
       "meta": {
         "generator": "Microsoft SharePoint"
       },
-      "description": "SharePoint is a cloud-based collaborative platform to manage and share content.",
       "website": "https://sharepoint.microsoft.com"
     },
     "Microsoft Word": {
@@ -7633,6 +8041,7 @@
         20
       ],
       "cpe": "cpe:/a:microsoft:word",
+      "description": "MS Word is a word-processing program used primarily for creating documents.",
       "html": "(?:<html [^>]*xmlns:w=\"urn:schemas-microsoft-com:office:word\"|<w:WordDocument>|<div [^>]*class=\"?WordSection1[\" >]|<style[^>]*>[^>]*@page WordSection1)",
       "icon": "Microsoft Word.svg",
       "meta": {
@@ -7714,18 +8123,22 @@
       "cats": [
         10
       ],
+      "description": "Mixpanel provides a business analytics service. It tracks user interactions with web and mobile applications and provides tools for targeted communication with them. Its toolset contains in-app A/B tests and user survey forms.",
       "icon": "Mixpanel.png",
       "js": {
         "mixpanel": ""
       },
-      "scripts": "api\\.mixpanel\\.com/track",
-      "description": "Mixpanel provides a business analytics service. It tracks user interactions with web and mobile applications and provides tools for targeted communication with them. Its toolset contains in-app A/B tests and user survey forms.",
+      "scripts": [
+        "cdn\\.mxpnl\\.com/libs/mixpanel\\-([0-9.]+)\\.min\\.js\\;version:\\1",
+        "api\\.mixpanel\\.com/track"
+      ],
       "website": "https://mixpanel.com"
     },
     "MkDocs": {
       "cats": [
         4
       ],
+      "description": "MkDocs is a static site generator, used for building project documentation.",
       "icon": "mkdocs.png",
       "meta": {
         "generator": "^mkdocs-([\\d.]+)\\;version:\\1"
@@ -7802,6 +8215,7 @@
       "cats": [
         59
       ],
+      "description": "Modernizr is a JavaScript library that detects the features available in a user's browser.",
       "icon": "Modernizr.svg",
       "js": {
         "Modernizr._version": "^(.+)$\\;version:\\1"
@@ -7809,7 +8223,6 @@
       "scripts": [
         "([\\d.]+)?/modernizr(?:\\.([\\d.]+))?.*\\.js\\;version:\\1?\\1:\\2"
       ],
-      "description": "Modernizr is a JavaScript library that detects the features available in a user's browser.",
       "website": "https://modernizr.com"
     },
     "Modified": {
@@ -7884,13 +8297,13 @@
       "cats": [
         59
       ],
+      "description": "Moment.js is a free and open-source JavaScript library that removes the need to use the native JavaScript Date object directly.",
       "icon": "Moment.js.svg",
       "js": {
         "moment": "",
         "moment.version": "^(.+)$\\;version:\\1"
       },
       "scripts": "moment(?:\\.min)?\\.js",
-      "description": "Moment.js is a free and open source JavaScript library that removes the need to use the native JavaScript Date object directly.",
       "website": "https://momentjs.com"
     },
     "Mondo Media": {
@@ -7908,6 +8321,7 @@
         34
       ],
       "cpe": "cpe:/a:mongodb:mongodb",
+      "description": "MongoDB is a document-oriented NoSQL database used for high volume data storage.",
       "icon": "MongoDB.png",
       "website": "http://www.mongodb.org"
     },
@@ -8062,6 +8476,7 @@
       "cats": [
         12
       ],
+      "description": "Mustache is a web template system.",
       "icon": "Mustache.png",
       "js": {
         "Mustache.version": "^(.+)$\\;version:\\1"
@@ -8119,6 +8534,7 @@
         34
       ],
       "cpe": "cpe:/a:mysql:mysql",
+      "description": "MySQL is an open-source relational database management system.",
       "icon": "MySQL.svg",
       "website": "http://mysql.com"
     },
@@ -8229,6 +8645,7 @@
         62,
         31
       ],
+      "description": "Netlify providers hosting and serverless backend services for web applications and static websites.",
       "headers": {
         "Server": "^Netlify",
         "X-NF-Request-ID": ""
@@ -8275,12 +8692,12 @@
       "cats": [
         10
       ],
+      "description": "New Relic is a Software-as-a-Service offering that focuses on performance and availability monitoring.",
       "icon": "New Relic.png",
       "js": {
         "NREUM": "",
         "newrelic": ""
       },
-      "description": "New Relic is a Software as a Service offering that focuses on performance and availability monitoring.",
       "website": "https://newrelic.com"
     },
     "Next.js": {
@@ -8289,6 +8706,7 @@
         22
       ],
       "cpe": "cpe:/a:zeit:next.js",
+      "description": "Next.js is a React framework for developing single page Javascript applications.",
       "headers": {
         "x-powered-by": "^Next\\.js ?([0-9.]+)?\\;version:\\1"
       },
@@ -8322,12 +8740,24 @@
         64
       ],
       "cpe": "cpe:/a:nginx:nginx",
+      "description": "Nginx is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.",
       "headers": {
         "Server": "nginx(?:/([\\d.]+))?\\;version:\\1",
         "X-Fastcgi-Cache": ""
       },
       "icon": "Nginx.svg",
       "website": "http://nginx.org/en"
+    },
+    "NitroPack": {
+      "cats": [
+        23
+      ],
+      "description": "NitroPack creates optimized HTML cache for fast page loading experience.",
+      "icon": "NitroPack.svg",
+      "meta": {
+        "generator": "NitroPack"
+      },
+      "website": "https://nitropack.io/"
     },
     "NivCMS": {
       "cats": [
@@ -8350,6 +8780,7 @@
         27
       ],
       "cpe": "cpe:/a:nodejs:node.js",
+      "description": "Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside a web browser.",
       "icon": "node.js.png",
       "website": "http://nodejs.org"
     },
@@ -8400,6 +8831,7 @@
       "cats": [
         5
       ],
+      "description": "OWL Carousel is an enabled jQuery plugin that lets you create responsive carousel sliders.",
       "html": "<link [^>]*href=\"[^\"]+owl\\.carousel(?:\\.min)?\\.css",
       "icon": "OWL Carousel.png",
       "implies": "jQuery",
@@ -8439,6 +8871,7 @@
       "cats": [
         57
       ],
+      "description": "Octopress is a static blogging framework.",
       "html": "Powered by <a href=\"http://octopress\\.org\">",
       "icon": "octopress.png",
       "implies": "Jekyll",
@@ -8446,7 +8879,6 @@
         "generator": "Octopress"
       },
       "scripts": "/octopress\\.js",
-      "description": "Octopress is a static blogging framework.",
       "website": "http://octopress.org"
     },
     "Odoo": {
@@ -8455,6 +8887,7 @@
         6
       ],
       "cpe": "cpe:/a:odoo:odoo",
+      "description": "Odoo is business management software which includes CRM, e-commerce, billing, accounting, manufacturing, warehouse, project management, and inventory management.",
       "html": "<link[^>]* href=[^>]+/web/css/(?:web\\.assets_common/|website\\.assets_frontend/)\\;confidence:25",
       "icon": "Odoo.png",
       "implies": [
@@ -8467,13 +8900,13 @@
         "generator": "Odoo"
       },
       "scripts": "/web/js/(?:web\\.assets_common/|website\\.assets_frontend/)\\;confidence:25",
-      "description": "Odoo is business management software which includes CRM, e-commerce, billing, accounting, manufacturing, warehouse, project management, and inventory management.",
       "website": "http://odoo.com"
     },
     "Olark": {
       "cats": [
         52
       ],
+      "description": "Olark is a cloud-based live chat solution.",
       "icon": "Olark.png",
       "scripts": "^https?:\\/\\/static\\.olark\\.com\\/jsclient\\/loader1\\.js",
       "website": "https://www.olark.com/"
@@ -8505,6 +8938,7 @@
       "cookies": {
         "OptanonConsent": ""
       },
+      "description": "OneTrust is a cloud-based data privacy management compliance platform.",
       "icon": "OneTrust.png",
       "scripts": [
         "cdn\\.cookielaw\\.org",
@@ -8519,6 +8953,7 @@
       "cats": [
         6
       ],
+      "description": "OpenCartfree open-source ecommerce platform for online merchants.",
       "excludes": "OpenCart",
       "icon": "Onshop.svg",
       "implies": "PHP",
@@ -8526,7 +8961,6 @@
         "generator": "Onshop Ecommerce"
       },
       "scripts": "/opencart_custom\\.js",
-      "description": "OpenCartfree open source ecommerce platform for online merchants.",
       "website": "https://onshop.asia"
     },
     "Open AdStream": {
@@ -8559,6 +8993,7 @@
         "OJSSID": ""
       },
       "cpe": "cpe:/a:public_knowledge_project:open_journal_systems",
+      "description": "Open Journal Systems (OJS) is an open-source software application for managing and publishing scholarly journals.",
       "icon": "Open Journal Systems.png",
       "implies": "PHP",
       "meta": {
@@ -8631,6 +9066,7 @@
       "cats": [
         22
       ],
+      "description": "OpenGSE is a test suite used for testing servlet compliance. It is deployed by using WAR files that are deployed on the server engine.",
       "headers": {
         "Server": "GSE"
       },
@@ -8656,6 +9092,7 @@
       "cats": [
         35
       ],
+      "description": "OpenLayers is an open-source JavaScript library for displaying map data in web browser.",
       "icon": "OpenLayers.png",
       "js": {
         "OpenLayers.VERSION_NUMBER": "([\\d.]+)\\;version:\\1",
@@ -8681,15 +9118,16 @@
       "cats": [
         41
       ],
+      "description": "Openpay is an innovative online and in-store payment solution enabling you to purchase now and pay later, with no interest.",
       "icon": "openpay.png",
       "scripts": "openpay\\.com.\\au",
-      "description": "Openpay is an innovative online and in-store payment solution enabling you to purchase now and pay later, with no interest.",
       "website": "https://www.openpay.com.au/"
     },
     "OpenResty": {
       "cats": [
         22
       ],
+      "description": "OpenResty is a web platform based on nginx which can run Lua scripts using its LuaJIT engine.",
       "headers": {
         "Server": "openresty(?:/([\\d.]+))?\\;version:\\1"
       },
@@ -8861,6 +9299,7 @@
       "cats": [
         67
       ],
+      "description": "Osano is a data privacy platform that helps your website become compliant with laws such as GDPR and CCPA.",
       "icon": "osano.png",
       "scripts": "cookieconsent\\.min\\.js",
       "website": "https://www.osano.com/"
@@ -8890,6 +9329,21 @@
       "url": "/owa/auth/log(?:on|off)\\.aspx",
       "website": "http://help.outlook.com"
     },
+    "Oxygen": {
+      "cats": [
+        51
+      ],
+      "html": [
+        "<body class=(?:\"|')[^\"']*oxygen-body",
+        "<link [^>]*href=(?:\"|')[^>]*wp-content/plugins/oxygen/"
+      ],
+      "icon": "Oxygen.png",
+      "implies": "WordPress",
+      "scripts": [
+        "wp-content/plugins/oxygen"
+      ],
+      "website": "https://oxygenbuilder.com"
+    },
     "PDF.js": {
       "cats": [
         19
@@ -8915,6 +9369,7 @@
         "PHPSESSID": ""
       },
       "cpe": "cpe:/a:php:php",
+      "description": "PHP is a general-purpose scripting language used for web development.",
       "headers": {
         "Server": "php/?([\\d.]+)?\\;version:\\1",
         "X-Powered-By": "^php/?([\\d.]+)?\\;version:\\1"
@@ -9016,6 +9471,7 @@
       "cats": [
         62
       ],
+      "description": "Pantheon is a Website Management Platform for WordPress and Drupal.",
       "headers": {
         "Server": "^Pantheon",
         "x-pantheon-styx-hostname": "",
@@ -9033,6 +9489,7 @@
       "cats": [
         32
       ],
+      "description": "Pardot is a Software-as-a-Service (SaaS) marketing automation platform.",
       "headers": {
         "X-Pardot-LB": "",
         "X-Pardot-Route": "",
@@ -9088,6 +9545,7 @@
         41
       ],
       "cpe": "cpe:/a:paypal:paypal",
+      "description": "PayPal is an online payments system that supports online money transfers and serves as an electronic alternative to traditional paper methods like checks and money orders.",
       "html": [
         "<input[^>]+_s-xclick",
         "<img [^>]*src=\"[^/]*//[^/]*paypal\\.com",
@@ -9099,7 +9557,6 @@
       },
       "scripts": "paypalobjects\\.com",
       "url": "paypal\\.com",
-      "description": "PayPal is an online payments system that supports online money transfers and serves as an electronic alternative to traditional paper methods like checks and money orders.",
       "website": "https://paypal.com"
     },
     "Pelican": {
@@ -9130,6 +9587,7 @@
       "cats": [
         34
       ],
+      "description": "Percona server is an opensource, fully compatible, enhanced drop-in replacement for MySQL, providing superior performance, scalability, and instrumentation.",
       "icon": "percona.svg",
       "website": "https://www.percona.com"
     },
@@ -9162,6 +9620,7 @@
         27
       ],
       "cpe": "cpe:/a:perl:perl",
+      "description": "Perl is a family of two high-level, general-purpose, interpreted, dynamic programming languages.",
       "headers": {
         "Server": "\\bPerl\\b(?: ?/?v?([\\d.]+))?\\;version:\\1"
       },
@@ -9197,13 +9656,13 @@
       "cats": [
         57
       ],
+      "description": "Phenomic is a modular website compiler.",
       "html": [
         "<[^>]+id=\"phenomic(?:root)?\""
       ],
       "icon": "Phenomic.svg",
       "implies": "React",
       "scripts": "/phenomic\\.browser\\.[a-f0-9]+\\.js",
-      "description": "Phenomic is a modular website compiler.",
       "website": "https://phenomic.io/"
     },
     "Phoenix": {
@@ -9246,6 +9705,7 @@
         22
       ],
       "cpe": "cpe:/a:phusionpassenger:phusion_passenger",
+      "description": "Phusion Passenger is a free web server and application server with support for Ruby, Python and Node.js.",
       "headers": {
         "Server": "Phusion Passenger ([\\d.]+)\\;version:\\1",
         "X-Powered-By": "Phusion Passenger ?([\\d.]+)?\\;version:\\1"
@@ -9270,9 +9730,9 @@
       "cats": [
         41
       ],
+      "description": "Pin Payments is an all-in-one online payment system. It offers merchants a simple JSON API, secure credit card storage, multi-currency capabilities, bank account compatibility, onsite payment processing and automatic fund transfer to specified bank accounts.",
       "icon": "pinpayments.png",
       "scripts": "api\\.pinpayments\\.com",
-      "description": "Pin Payments is an all-in-one online payment system. It offers merchants a simple JSON API, secure credit card storage, multi-currency capabilities, bank account compatibility, onsite payment processing and automatic fund transfer to specified bank accounts.",
       "website": "https://www.pinpayments.com/"
     },
     "Pingoteam": {
@@ -9290,6 +9750,7 @@
       "cats": [
         5
       ],
+      "description": "Pinterest is an image sharing and social media service designed to enable saving and discovery of information.",
       "icon": "Pinterest.svg",
       "scripts": "//assets\\.pinterest\\.com/js/pinit\\.js",
       "website": "http://pinterest.com"
@@ -9435,6 +9896,23 @@
       "scripts": "polymer\\.js",
       "website": "http://polymer-project.org"
     },
+    "Popper": {
+      "cats": [
+        19
+      ],
+      "description": "Popper is an tolltip & popover positioning engine",
+      "html": [
+        "<script [^>]*src=\"[^\"]*/popper\\.js/([0-9.]+)\\;version:\\1"
+      ],
+      "icon": "Popper.png",
+      "js": {
+        "createPopper": ""
+      },
+      "scripts": [
+        "/popper\\.js/([0-9.]+)\\;version:\\1"
+      ],
+      "website": "https://popper.js.org"
+    },
     "Posterous": {
       "cats": [
         1,
@@ -9452,6 +9930,7 @@
         34
       ],
       "cpe": "cpe:/a:postgresql:postgresql",
+      "description": "PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance.",
       "icon": "PostgreSQL.png",
       "website": "http://www.postgresql.org/"
     },
@@ -9478,6 +9957,7 @@
       "cats": [
         36
       ],
+      "description": "Prebid is an open-source header bidding wrapper. It forms the core of our Nucleus ad platform, helping maximize revenue and performance for publishers.",
       "icon": "Prebid.png",
       "js": {
         "PREBID_TIMEOUT": "",
@@ -9487,7 +9967,6 @@
         "/prebid\\.js",
         "adnxs\\.com/[^\"]*(?:prebid|/pb\\.js)"
       ],
-      "description": "Prebid is an open-source header bidding wrapper. It forms the core of our Nucleus ad platform, helping maximize revenue and performance for publishers.",
       "website": "http://prebid.org"
     },
     "Prefix-Free": {
@@ -9509,6 +9988,7 @@
         "PrestaShop": ""
       },
       "cpe": "cpe:/a:prestashop:prestashop",
+      "description": "PrestaShop is a freemium, open-source ecommerce solution, written in the PHP programming language with support for the MySQL database management system.",
       "headers": {
         "Powered-By": "^Prestashop$"
       },
@@ -9530,13 +10010,13 @@
       "meta": {
         "generator": "PrestaShop"
       },
-      "description": "PrestaShop is a freemium, open source ecommerce solution, written in the PHP programming language with support for the MySQL database management system.",
       "website": "http://www.prestashop.com"
     },
     "Prism": {
       "cats": [
         19
       ],
+      "description": "Prism is an extensible syntax highlighter.",
       "icon": "Prism.svg",
       "js": {
         "Prism": ""
@@ -9570,6 +10050,7 @@
       "cats": [
         12
       ],
+      "description": "Prototype is a JavaScript Framework that aims to ease development of web applications.",
       "icon": "Prototype.png",
       "js": {
         "Prototype.Version": "^(.+)$\\;version:\\1"
@@ -9641,18 +10122,19 @@
       "cats": [
         66
       ],
+      "description": "Pure CSS is a set of small, responsive CSS modules that can be used in web projects.",
       "html": [
         "<link[^>]+(?:([\\d.])+/)?pure(?:-min)?\\.css\\;version:\\1",
         "<div[^>]+class=\"[^\"]*pure-u-(?:sm-|md-|lg-|xl-)?\\d-\\d"
       ],
       "icon": "Pure CSS.png",
-      "description": "Pure CSS is a set of small, responsive CSS modules that can be used in web projects.",
       "website": "http://purecss.io"
     },
     "Pushnami": {
       "cats": [
         32
       ],
+      "description": "Pushnami is an AI-powered messaging platform that uses intelligent analytics to deliver superior push, social, and email performance.",
       "icon": "Pushnami.svg",
       "scripts": "api\\.pushnami\\.com",
       "website": "https://pushnami.com"
@@ -9685,6 +10167,7 @@
         27
       ],
       "cpe": "cpe:/a:python:python",
+      "description": "Python is an interpreted and general-purpose programming language.",
       "headers": {
         "Server": "(?:^|\\s)Python(?:/([\\d.]+))?\\;version:\\1"
       },
@@ -9695,6 +10178,7 @@
       "cats": [
         67
       ],
+      "description": "Quantcast Choice is a free consent management platform to meet key privacy requirements stemming from ePrivacy Directive, GDPR, and CCPA.",
       "icon": "Quantcast.png",
       "js": {
         "quantserve": ""
@@ -9717,6 +10201,7 @@
       "cats": [
         15
       ],
+      "description": "Question2Answer (Q2A) is a popular open-source Q&A platform for PHP/MySQL.",
       "html": "<!-- Powered by Question2Answer",
       "icon": "question2answer.png",
       "implies": "PHP",
@@ -9783,6 +10268,7 @@
       "cats": [
         32
       ],
+      "description": "RD Station is a platform that helps medium and small businesses manage and automate their Digital Marketing strategy.",
       "icon": "RD Station.png",
       "js": {
         "RDStation": ""
@@ -9795,6 +10281,7 @@
         4
       ],
       "cpe": "cpe:/a:dave_thomas:rdoc",
+      "description": "RDoc produces HTML and command-line documentation for Ruby projects.",
       "html": [
         "<link[^>]+href=\"[^\"]*rdoc-style\\.css",
         "Generated by <a[^>]+href=\"https?://rdoc\\.rubyforge\\.org[^>]+>RDoc</a> ([\\d.]*\\d)\\;version:\\1",
@@ -9894,6 +10381,7 @@
       "cats": [
         52
       ],
+      "description": "Raychat is a free customer messaging platform.",
       "icon": "raychat.png",
       "js": {
         "Raychat": ""
@@ -9922,6 +10410,7 @@
       "cats": [
         4
       ],
+      "description": "Redoc is an open-source tool that generates API documentation from OpenAPI specifications.",
       "html": "<redoc ",
       "icon": "redoc.png",
       "implies": "React",
@@ -9936,6 +10425,7 @@
         12
       ],
       "cpe": "cpe:/a:facebook:react",
+      "description": "React is an open-source JavaScript library for building user interfaces or UI components.",
       "html": "<[^>]+data-react",
       "icon": "React.png",
       "js": {
@@ -9965,6 +10455,7 @@
       "cats": [
         68
       ],
+      "description": "Recite Me is a cloud-based web accessibility assistive toolbar that allows website visitors to customize a site in a way that works for them.",
       "icon": "Recite Me.png",
       "scripts": "api\\.reciteme\\.com/asset/js",
       "website": "https://reciteme.com/"
@@ -9973,13 +10464,13 @@
       "cats": [
         41
       ],
+      "description": "Recurly provides enterprise-class subscription billing and recurring payment management for thousands of businesses worldwide.",
       "html": "<input[^>]+data-recurly",
       "icon": "Recurly.png",
       "js": {
         "recurly.version": "^(.+)$\\;version:\\1"
       },
       "scripts": "js\\.recurly\\.com",
-      "description": "Recurly provides enterprise-class subscription billing and recurring payment management for thousands of businesses worldwide.",
       "website": "https://recurly.com"
     },
     "Red Hat": {
@@ -10023,6 +10514,7 @@
         34
       ],
       "cpe": "cpe:/a:redislabs:redis",
+      "description": "Redis is an in-memory data structure project implementing a distributed, in-memory key–value database with optional durability. Redis supports different kinds of abstract data structures, such as strings, lists, maps, sets, sorted sets, HyperLogLogs, bitmaps, streams, and spatial indexes.",
       "icon": "Redis.svg",
       "website": "https://redis.io"
     },
@@ -10068,6 +10560,7 @@
       "cats": [
         12
       ],
+      "description": "RequireJS is a JavaScript library and file loader which manages the dependencies between JavaScript files and in modular programming.",
       "icon": "RequireJS.png",
       "js": {
         "requirejs.version": "^(.+)$\\;version:\\1"
@@ -10115,6 +10608,7 @@
       "cats": [
         19
       ],
+      "description": "Slider Revolution is a WordPress plugin that allows you to create responsive sliders with many animation effects, text, image and video layers, and many other features.",
       "html": [
         "<link[^>]* href=[\\'\"][^']+revslider[/\\w-]+\\.css\\?ver=([0-9.]+)[\\'\"]\\;version:\\1"
       ],
@@ -10223,6 +10717,7 @@
         11,
         32
       ],
+      "description": "Rock RMS is a free, open-source Relationship Management System (RMS) built for churches and businesses.",
       "icon": "RockRMS.svg",
       "implies": [
         "Windows Server",
@@ -10233,6 +10728,16 @@
         "generator": "^Rock v([0-9.]+)\\;version:\\1"
       },
       "website": "http://www.rockrms.com"
+    },
+    "Rollbar": {
+      "cats": [
+        13
+      ],
+      "icon": "Rollbar.svg",
+      "scripts": [
+        "rollbar\\.js/([0-9.]+)\\;version:\\1"
+      ],
+      "website": "https://rollbar.com/"
     },
     "RoundCube": {
       "cats": [
@@ -10260,6 +10765,7 @@
         27
       ],
       "cpe": "cpe:/a:ruby-lang:ruby",
+      "description": "Ruby is an open-source object-oriented programming language.",
       "headers": {
         "Server": "(?:Mongrel|WEBrick|Ruby)"
       },
@@ -10274,6 +10780,7 @@
         "_session_id": "\\;confidence:75"
       },
       "cpe": "cpe:/a:rubyonrails:rails",
+      "description": "Ruby on Rails is a server-side web application framework written in Ruby under the MIT License.",
       "headers": {
         "Server": "mod_(?:rails|rack)",
         "X-Powered-By": "mod_(?:rails|rack)"
@@ -10326,13 +10833,13 @@
         "_hybris": ""
       },
       "cpe": "cpe:/a:sap:commerce_cloud",
+      "description": "SAP Commerce Cloud is a cloud-native omnichannel commerce solution for B2B, B2C, and B2B2C companies.",
       "html": [
         "<[^>]+/(?:sys_master|hybr|_ui/(?:.*responsive/)?(?:desktop|common(?:/images|/img|/css|ico)?))/",
         "<script[^>].*hybris.*.js"
       ],
       "icon": "SAP.png",
       "implies": "Java",
-      "description": "SAP Commerce Cloud is a cloud-native omnichannel commerce solution for B2B, B2C, and B2B2C companies.",
       "website": "https://www.sap.com/products/crm/e-commerce-platforms.html"
     },
     "SAP Customer Data Cloud Sign-in": {
@@ -10451,6 +10958,7 @@
       "cats": [
         57
       ],
+      "description": "Saber is a framework for building static websites.",
       "html": [
         "<div [^>]*id=\"_saber\""
       ],
@@ -10459,7 +10967,6 @@
       "meta": {
         "generator": "^Saber v([\\d.]+)$\\;version:\\1"
       },
-      "description": "Saber is a framework for building static websites.",
       "website": "https://saber.land/"
     },
     "Sails.js": {
@@ -10501,6 +11008,7 @@
       "cookies": {
         "com.salesforce": ""
       },
+      "description": "Salesforce is a cloud computing service software (SaaS) that specializes in customer relationship management (CRM).",
       "html": "<[^>]+=\"brandQuaternaryFgrs\"",
       "icon": "Salesforce.svg",
       "js": {
@@ -10509,13 +11017,13 @@
         "SFDCPage": "",
         "SFDCSessionVars": ""
       },
-      "description": "Salesforce is a cloud computing service software (SaaS) that specializes in customer relationship management (CRM).",
       "website": "https://www.salesforce.com"
     },
     "Salesforce Commerce Cloud": {
       "cats": [
         6
       ],
+      "description": "Salesforce Commerce Cloud is a cloud-based software-as-a-service (SaaS) ecommerce solution.",
       "headers": {
         "Server": "Demandware eCommerce Server"
       },
@@ -10523,12 +11031,26 @@
         "<[^>]+demandware\\.edgesuite"
       ],
       "icon": "Salesforce.svg",
+      "implies": "Salesforce",
       "js": {
         "dwAnalytics": ""
       },
       "scripts": "/demandware\\.static/",
-      "description": "Salesforce Commerce Cloud is a cloud-based software-as-a-service (SaaS) ecommerce solution.",
       "website": "http://demandware.com"
+    },
+    "Salesforce Service Cloud": {
+      "cats": [
+        52,
+        53
+      ],
+      "description": "Salesforce Service Cloud is a customer relationship management (CRM) platform for customer service and support.",
+      "icon": "Salesforce.svg",
+      "implies": "Salesforce",
+      "js": {
+        "embedded_svc": ""
+      },
+      "scripts": "service\\.force\\.com",
+      "website": "https://www.salesforce.com/au/products/service-cloud/"
     },
     "Sapper": {
       "cats": [
@@ -10575,6 +11097,7 @@
       "cats": [
         27
       ],
+      "description": "Scala is a general-purpose programming language providing support for both object-oriented programming and functional programming.",
       "icon": "Scala.png",
       "website": "http://www.scala-lang.org"
     },
@@ -10601,6 +11124,15 @@
       },
       "website": "https://demo.scenari.site"
     },
+    "Schedule Engine": {
+      "cats": [
+        52
+      ],
+      "description": "Schedule Engine is a customer support solution built for contractors.",
+      "icon": "Schedule Engine.svg",
+      "scripts": "webchat.scheduleengine.net",
+      "website": "https://www.scheduleengine.com/"
+    },
     "Scholica": {
       "cats": [
         21
@@ -10622,6 +11154,19 @@
       "icon": "Scientific Linux.png",
       "website": "http://scientificlinux.org"
     },
+    "Scorpion": {
+      "cats": [
+        1
+      ],
+      "description": "Scorpion is a marketing and technology provider.",
+      "html": "<[^>]+id=\"HSScorpion",
+      "icon": "Scorpion.svg",
+      "js": {
+        "Process.UserData": ""
+      },
+      "scripts": "cdn.cxc.scorpion.direct",
+      "website": "https://www.scorpion.co/"
+    },
     "SeamlessCMS": {
       "cats": [
         1
@@ -10631,6 +11176,14 @@
         "generator": "^Seamless\\.?CMS"
       },
       "website": "http://www.seamlesscms.com"
+    },
+    "Sectigo": {
+      "cats": [
+        70
+      ],
+      "certIssuer": "Sectigo",
+      "icon": "Sectigo.svg",
+      "website": "https://sectigo.com/"
     },
     "Section.io": {
       "cats": [
@@ -10658,38 +11211,38 @@
       "cats": [
         10
       ],
+      "description": "Segment is a customer data platform (CDP) that helps you collect, clean, and control your customer data.",
       "icon": "Segment.png",
       "js": {
         "analytics": ""
       },
       "scripts": "cdn\\.segment\\.com/analytics\\.js",
-      "description": "Segment is a customer data platform (CDP) that helps you collect, clean, and control your customer data.",
       "website": "https://segment.com"
     },
     "Select2": {
       "cats": [
         59
       ],
+      "description": "Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.",
       "icon": "Select2.png",
       "implies": "jQuery",
       "js": {
         "jQuery.fn.select2": ""
       },
       "scripts": "select2(?:\\.min|\\.full)?\\.js",
-      "description": "Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.",
       "website": "https://select2.org/"
     },
-    "Semantic-ui": {
+    "Semantic UI": {
       "cats": [
         66
       ],
+      "description": "Semantic UI is a front-end development framework, powered by LESS and jQuery.",
       "html": [
         "<link[^>]+semantic(?:\\.min)\\.css\""
       ],
       "icon": "Semantic-ui.png",
       "scripts": "/semantic(?:-([\\d.]+))?(?:\\.min)?\\.js\\;version:\\1",
-      "description": "Semantic UI is a front-end development framework, powered by LESS and jQuery.",
-      "website": "https://semantic-ui.com"
+      "website": "https://semantic-ui.com/"
     },
     "Sencha Touch": {
       "cats": [
@@ -10720,7 +11273,10 @@
       "cats": [
         13
       ],
-      "html": "<script[^>]*>\\s*Raven\\.config\\('[^']*', \\{\\s+release: '([0-9\\.]+)'\\;version:\\1",
+      "html": [
+        "<script[^>]*>\\s*Raven\\.config\\('[^']*', \\{\\s+release: '([0-9\\.]+)'\\;version:\\1",
+        "<script[^>]*src=\"[^\"]*browser\\.sentry\\-cdn\\.com/([0-9.]+)/bundle(?:\\.tracing)?(?:\\.min)?\\.js\\;version:\\1"
+      ],
       "icon": "Sentry.svg",
       "js": {
         "Raven.config": "",
@@ -10729,6 +11285,9 @@
         "__SENTRY__": "",
         "ravenOptions.whitelistUrls": ""
       },
+      "scripts": [
+        "browser\\.sentry\\-cdn\\.com/([0-9.]+)/bundle(?:\\.tracing)?(?:\\.min)?\\.js\\;version:\\1"
+      ],
       "website": "https://sentry.io/"
     },
     "Seravo": {
@@ -10775,6 +11334,7 @@
       "cats": [
         5
       ],
+      "description": "ShareThis provides free engagement and growth tools (e.g., share buttons, follow buttons, and reaction buttons) for site owners.",
       "icon": "ShareThis.png",
       "js": {
         "SHARETHIS": ""
@@ -10822,11 +11382,11 @@
       "cats": [
         41
       ],
+      "description": "Shop Pay is an accelerated checkout that lets customers save their email address, credit card, and shipping and billing information so they can complete their transaction faster the next time they are directed to the Shopify checkout.",
       "html": "<[^>]+aria-labelledby=\"pi-shopify_pay",
       "icon": "Shopify.svg",
       "implies": "Shopify",
       "url": "^https://pay.shopify.com",
-      "description": "Shop Pay is an accelerated checkout that lets customers save their email address, credit card, and shipping and billing information so they can complete their transaction faster the next time they are directed to the Shopify checkout.",
       "website": "https://pay.google.com"
     },
     "Shopatron": {
@@ -10947,6 +11507,7 @@
       "cats": [
         6
       ],
+      "description": "Shopware is an enterprise-level ecommerce platform.",
       "headers": {
         "sw-context-token": "^[\\w]{32}$\\;version:6",
         "sw-invalidation-states": "\\;version:6",
@@ -10969,7 +11530,6 @@
         "/jquery\\.shopware\\.min\\.js",
         "/engine/Shopware/"
       ],
-      "description": "Shopware is an enterprise-level ecommerce platform.",
       "website": "https://www.shopware.com"
     },
     "Signal": {
@@ -10977,6 +11537,7 @@
         32,
         42
       ],
+      "description": "Signal is a cross-platform encrypted messaging service.",
       "icon": "signal.png",
       "js": {
         "signalData": ""
@@ -11068,6 +11629,7 @@
       "cats": [
         62
       ],
+      "description": "SiteGround is a web hosting service.",
       "headers": {
         "host-header": "192fc2e7e50945beb8231a492d6a8024|b7440e60b07ee7b8044761568fab26e8|624d5be7be38418a3e2a818cc8b7029b|6b7412fb82ca5edfd0917e3957f05d89"
       },
@@ -11103,10 +11665,10 @@
         53,
         6
       ],
+      "description": "SiteGlide is a Digital Experience Platform (DEP) for ecommerce stores, membership sites and customer portals.",
       "icon": "Siteglide.svg",
       "implies": "PlatformOS",
       "scripts": "siteglide\\.js",
-      "description": "SiteGlide is a Digital Experience Platform (DEP) for ecommerce stores, membership sites and customer portals.",
       "website": "https://www.siteglide.com"
     },
     "Sivuviidakko": {
@@ -11142,6 +11704,7 @@
         47,
         9
       ],
+      "description": "SlickStack is a free LEMP stack automation script written in Bash designed to enhance and simplify WordPress provisioning, performance, and security.",
       "headers": {
         "x-powered-by": "SlickStack"
       },
@@ -11254,6 +11817,20 @@
       "scripts": "snap\\.svg(?:-min)?\\.js",
       "website": "http://snapsvg.io"
     },
+    "SnapEngage": {
+      "cats": [
+        52
+      ],
+      "description": "SnapEngage is a live chat solution that caters to businesses across various industries.",
+      "html": "<!-- begin SnapEngage",
+      "icon": "SnapEngage.svg",
+      "js": {
+        "SnapEngage": "",
+        "SnapEngageChat": "",
+        "snapengage_mobile": ""
+      },
+      "website": "https://snapengage.com/"
+    },
     "Snipcart": {
       "cats": [
         6
@@ -11320,6 +11897,7 @@
         6,
         4
       ],
+      "description": "Solidpixels is platform to build websites.",
       "icon": "SolidPixels.png",
       "implies": "React",
       "meta": {
@@ -11346,6 +11924,7 @@
       "cats": [
         34
       ],
+      "description": "Solr is an open-source enterprise-search platform, written in Java.",
       "icon": "Solr.png",
       "implies": "Lucene",
       "website": "http://lucene.apache.org/solr/"
@@ -11425,6 +12004,7 @@
       "cats": [
         4
       ],
+      "description": "Sphinx is a tool that makes it easy to create documentation.",
       "html": "Created using <a href=\"https?://(?:www\\.)?sphinx-doc\\.org/\">Sphinx</a> ([0-9.]+)\\.\\;version:\\1",
       "icon": "Sphinx.png",
       "js": {
@@ -11447,9 +12027,9 @@
       "cats": [
         41
       ],
+      "description": "Splitit is the only buy-now-pay-later plan that lets shoppers set up payment plans with their existing credit card without interest charges or fees.",
       "icon": "splitit.png",
       "scripts": "checkout\\.production\\.splitit\\.com",
-      "description": "Splitit is the only buy-now-pay-later plan that lets shoppers set up payment plans with their existing credit card without interest charges or fees.",
       "website": "https://www.splitit.com/"
     },
     "Splitbee": {
@@ -11518,6 +12098,7 @@
       "cats": [
         1
       ],
+      "description": "Squarespace provides Software-as-a-Service (SaaS) for website building and hosting, and allows users to use pre-built website templates.",
       "headers": {
         "X-ServedBy": "squarespace"
       },
@@ -11526,7 +12107,6 @@
       "js": {
         "Squarespace": ""
       },
-      "description": "Squarespace provides Software as a Service (SaaS) for website building and hosting, and allows users to use pre-built website templates.",
       "website": "http://www.squarespace.com"
     },
     "SquirrelMail": {
@@ -11736,6 +12316,7 @@
         5,
         32
       ],
+      "description": "Sumo is a plugin offering set of marketing tools to automate a website's growth. These tools help drive extra traffic, engage visitors, increase email subscribers and build community.",
       "icon": "SumoMe.png",
       "scripts": "load\\.sumome\\.com",
       "website": "http://sumome.com"
@@ -11842,6 +12423,7 @@
       "cats": [
         29
       ],
+      "description": "Swiftype provides search software for organisations, websites, and computer programs.",
       "icon": "swiftype.png",
       "js": {
         "Swiftype": ""
@@ -11868,6 +12450,7 @@
       "cookies": {
         "sf_redirect": ""
       },
+      "description": "Symfony is a PHP web application framework and a set of reusable PHP components/libraries.",
       "html": "(?:<div class=\"sf-toolbar[^>]+?>[^]+<span class=\"sf-toolbar-value\">([\\d.])+|<div id=\"sfwdt[^\"]+\" class=\"[^\"]*sf-toolbar)\\;version:\\1",
       "icon": "Symfony.svg",
       "implies": "PHP",
@@ -11892,6 +12475,7 @@
       "cats": [
         48
       ],
+      "description": "DiskStation provides a full-featured network attached storage.",
       "html": "<noscript><div class='syno-no-script'",
       "icon": "Synology DiskStation.png",
       "meta": {
@@ -11927,18 +12511,18 @@
       "cookies": {
         "TNEW": ""
       },
+      "description": "Tessitura is an enterprise application to manage activities in ticketing, fundraising, customer relationship management, and marketing.",
       "icon": "tessitura.svg",
       "implies": "Tessitura",
-      "description": "Tessitura is an enterprise application to manage activities in ticketing, fundraising, customer relationship management, and marketing.",
       "website": "https://www.tessituranetwork.com"
     },
     "TNS Payments": {
       "cats": [
         41
       ],
+      "description": "TNS Payments, is designed to deliver payment transaction information to banks, merchants, processors and other payment institutions.",
       "icon": "tnsi.png",
       "scripts": "secure\\.ap\\.tnspayments\\.com",
-      "description": "TNS Payments, is designed to deliver payment transaction information to banks, merchants, processors and other payment institutions.",
       "website": "https://tnsi.com/products/payments/"
     },
     "TWiki": {
@@ -11958,6 +12542,7 @@
       "cats": [
         1
       ],
+      "description": "TYPO3 is a free and open-source Web content management system written in PHP.",
       "html": [
         "<link[^>]+ href=\"/?typo3(?:conf|temp)/",
         "<img[^>]+ src=\"/?typo3(?:conf|temp)/",
@@ -11970,13 +12555,13 @@
       },
       "scripts": "^/?typo3(?:conf|temp)/",
       "url": "/typo3/",
-      "description": "TYPO3 is a free and open-source Web content management system written in PHP.",
       "website": "https://typo3.org/"
     },
     "TagCommander": {
       "cats": [
         42
       ],
+      "description": "TagCommander is an enterprise tag management system (TMS) that makes it easy to add and remove vendor tags from your Drupal-based websites.",
       "icon": "tagcommander.png",
       "js": {
         "tc_vars": ""
@@ -12019,6 +12604,7 @@
       "cats": [
         52
       ],
+      "description": "Tawk.to is a free messaging app to monitor and chat with the visitors to a website, mobile app.",
       "icon": "TawkTo.png",
       "scripts": "//embed\\.tawk\\.to",
       "website": "http://tawk.to"
@@ -12037,6 +12623,7 @@
       "cats": [
         36
       ],
+      "description": "Tealium provides a sales enterprise tag management system and marketing software.",
       "icon": "Tealium.png",
       "js": {
         "TEALIUMENABLED": ""
@@ -12045,13 +12632,13 @@
         "^(?:https?:)?//tags\\.tiqcdn\\.com/",
         "/tealium/utag\\.js$"
       ],
-      "description": "Tealium provides a sales enterprise tag management system and marketing software.",
       "website": "http://tealium.com"
     },
     "TeamCity": {
       "cats": [
         44
       ],
+      "description": "TeamCity is a build management and continuous integration server from JetBrains.",
       "html": "<span class=\"versionTag\"><span class=\"vWord\">Version</span> ([\\d\\.]+)\\;version:\\1",
       "icon": "TeamCity.svg",
       "implies": [
@@ -12066,7 +12653,6 @@
       "meta": {
         "application-name": "TeamCity"
       },
-      "description": "Underscore.js is a JavaScript library which provides utility functions for common programming tasks. It is comparable to features provided by Prototype.js and the Ruby language, but opts for a functional programming design instead of extending object prototypes.",
       "website": "https://www.jetbrains.com/teamcity/"
     },
     "Tebex": {
@@ -12115,6 +12701,7 @@
       "cats": [
         22
       ],
+      "description": "Tengine is a web server which is based on the Nginx HTTP server.",
       "headers": {
         "Server": "Tengine"
       },
@@ -12125,6 +12712,7 @@
       "cats": [
         67
       ],
+      "description": "Termly provides free website policy resources and web-based policy creation software.",
       "icon": "termly.svg",
       "scripts": "app\\.termly\\.io/embed\\.min\\.js",
       "website": "https://termly.io/"
@@ -12156,6 +12744,7 @@
       "cats": [
         68
       ],
+      "description": "TextHelp is a literacy, accessibility and dyslexia software developer for people with reading and writing difficulties.",
       "icon": "Texthelp.png",
       "scripts": "browsealoud\\.com/.*/browsealoud\\.js",
       "website": "https://www.texthelp.com/en-gb/products/browsealoud/"
@@ -12233,6 +12822,7 @@
         4,
         8
       ],
+      "description": "TiddlyWiki is an open-source notebook for capturing, organising and sharing complex information.",
       "html": "<[^>]*type=[^>]text\\/vnd\\.tiddlywiki",
       "icon": "TiddlyWiki.png",
       "js": {
@@ -12352,12 +12942,12 @@
       "cats": [
         10
       ],
+      "description": "TrackJS is an error monitoring agent for production web sites and applications.",
       "icon": "TrackJs.png",
       "js": {
         "TrackJs": ""
       },
       "scripts": "tracker\\.js",
-      "description": "TrackJS is an error monitoring agent for production web sites and applications.",
       "website": "http://trackjs.com"
     },
     "Transifex": {
@@ -12394,6 +12984,7 @@
       "cats": [
         67
       ],
+      "description": "TrustArc provides software and services to help corporations update their privacy management processes so they comply with government laws and best practices.",
       "icon": "TrustArc.svg",
       "scripts": "consent\\.trustarc\\.com",
       "website": "http://trustarc.com"
@@ -12402,6 +12993,7 @@
       "cats": [
         11
       ],
+      "description": "Tumblr is a microblogging and social networking website. The service allows users to post multimedia and other content to a short-form blog.",
       "headers": {
         "X-Tumblr-User": ""
       },
@@ -12445,14 +13037,16 @@
       "cats": [
         5
       ],
+      "description": "Twitter is a 'microblogging' system that allows you to send and receive short posts called tweets.",
       "icon": "Twitter.svg",
       "scripts": "//platform\\.twitter\\.com/widgets\\.js",
       "website": "http://twitter.com"
     },
     "Twitter Emoji (Twemoji)": {
       "cats": [
-        19
+        17
       ],
+      "description": "Twitter Emoji is a set of open-source emoticons and emojis for Twitter, TweetDeck, and also for Android and iOS versions of the application.",
       "js": {
         "twemoji": ""
       },
@@ -12486,6 +13080,7 @@
       "cats": [
         11
       ],
+      "description": "Typepad is a blog hosting service.",
       "icon": "TypePad.png",
       "meta": {
         "generator": "typepad"
@@ -12497,6 +13092,7 @@
       "cats": [
         11
       ],
+      "description": "Typecho is a PHP Blogging Platform.",
       "icon": "typecho.svg",
       "implies": "PHP",
       "js": {
@@ -12512,6 +13108,7 @@
       "cats": [
         17
       ],
+      "description": "Typekit is an online service which offers a subscription library of fonts.",
       "icon": "Typekit.png",
       "js": {
         "Typekit.config.js": "^(.+)$\\;version:\\1"
@@ -12523,10 +13120,10 @@
       "cats": [
         66
       ],
+      "description": "UIKit is the framework used for developing iOS applications.",
       "html": "<[^>]+class=\"[^\"]*(?:uk-container|uk-section)",
       "icon": "UIKit.png",
       "scripts": "uikit.*\\.js",
-      "description": "UIKit is the framework used for developing iOS applications.",
       "website": "https://getuikit.com"
     },
     "UMI.CMS": {
@@ -12610,6 +13207,7 @@
         20,
         51
       ],
+      "description": "Unbounce is a tool to build landing pages.",
       "headers": {
         "X-Unbounce-PageId": ""
       },
@@ -12621,6 +13219,7 @@
       "cats": [
         59
       ],
+      "description": "Underscore.js is a JavaScript library which provides utility functions for common programming tasks. It is comparable to features provided by Prototype.js and the Ruby language, but opts for a functional programming design instead of extending object prototypes.",
       "excludes": "Lodash",
       "icon": "Underscore.js.png",
       "js": {
@@ -12652,6 +13251,7 @@
       "cats": [
         68
       ],
+      "description": "UsableNet is a technology for web accessibility and digital transformation, providing end-to-end services.",
       "html": "<iframe[ˆ>]*\\.usablenet\\.com/pt/",
       "icon": "UsableNet.png",
       "scripts": "\\.usablenet\\.com/pt/",
@@ -12661,6 +13261,7 @@
       "cats": [
         52
       ],
+      "description": "Userlike is a cloud-based live chat solution that can be integrated with existing websites.",
       "icon": "UserLike.svg",
       "scripts": [
         "userlike\\.min\\.js",
@@ -12692,6 +13293,7 @@
       "cats": [
         68
       ],
+      "description": "UserWay is a web accessibility widget add-on for websites to help improve their compliance with accessibility standards.",
       "icon": "UserWay.png",
       "scripts": "cdn\\.userway\\.org/widget.*\\.js",
       "website": "https://userway.org/"
@@ -12704,6 +13306,7 @@
       "cookies": {
         "ushahidi": ""
       },
+      "description": "Ushahidi is a tool that collects crowdsourced data and targeted survey responses from multiple data sources.",
       "icon": "Ushahidi.png",
       "implies": [
         "PHP",
@@ -12748,12 +13351,12 @@
         "VtexWorkspace": "",
         "vtex_session": ""
       },
+      "description": "VTEX is an ecommerce software that manages multiple online stores.",
       "headers": {
         "Server": "^VTEX IO$",
         "powered": "vtex"
       },
       "icon": "VTEX.svg",
-      "description": "VTEX is an ecommerce software that manages multiple online stores.",
       "website": "https://vtex.com/"
     },
     "Vaadin": {
@@ -12811,9 +13414,9 @@
       "cats": [
         41
       ],
+      "description": "Venmo is a mobile payment service owned by PayPal. Venmo account holders can transfer funds to others via a mobile phone app.",
       "html": "<[^>]+aria-labelledby=\"pi-venmo",
       "icon": "Venmo.svg",
-      "description": "Venmo is a mobile payment service owned by PayPal. Venmo account holders can transfer funds to others via a mobile phone app.",
       "website": "https://venmo.com"
     },
     "Veoxa": {
@@ -12945,9 +13548,9 @@
       "cats": [
         41
       ],
+      "description": "Visa facilitates electronic funds transfers throughout the world, most commonly through Visa-branded credit cards, debit cards and prepaid cards.",
       "icon": "visa.png",
       "scripts": "secure\\.checkout\\.visa\\.com",
-      "description": "Visa facilitates electronic funds transfers throughout the world, most commonly through Visa-branded credit cards, debit cards and prepaid cards.",
       "website": "https://checkout.visa.com"
     },
     "Visual Website Optimizer": {
@@ -12990,11 +13593,21 @@
       "scripts": "/volusion\\.js(?:\\?([\\d.]*))?\\;version:\\1",
       "website": "https://www.volusion.com"
     },
+    "Voog.com Website Builder": {
+      "cats": [
+        1,
+        6
+      ],
+      "html": "<script [^>]*src=\"[^\"]*voog\\.com/tracker\\.js",
+      "icon": "Voog.png",
+      "scripts": "voog\\.com/tracker\\.js",
+      "website": "https://www.voog.com/"
+    },
     "Vue.js": {
       "cats": [
         12
       ],
-      "description": "Vue is a progressive framework for building user interfaces.",
+      "description": "Vue.js is an open-source model–view–viewmodel JavaScript framework for building user interfaces and single-page applications.",
       "html": "<[^>]+\\sdata-v(?:ue)?-",
       "icon": "vue.svg",
       "js": {
@@ -13010,13 +13623,23 @@
       "cats": [
         57
       ],
+      "description": "VuePress is a static site generator with a Vue-powered theming system, and a default theme for writing technical documentation.",
       "icon": "VuePress.svg",
       "implies": "Vue.js",
       "meta": {
         "generator": "^VuePress(?: ([0-9.]+))?$\\;version:\\1"
       },
-      "description": "VuePress is a static site generator with a Vue-powered theming system, and a default theme for writing technical documentation.",
       "website": "https://vuepress.vuejs.org/"
+    },
+    "Vuetify": {
+      "cats": [
+        66
+      ],
+      "css": "\\.v-application \\.d-block ",
+      "html": "<div data-app[^>]+class=\"v-application",
+      "icon": "Vuetify.svg",
+      "implies": "Vue.js",
+      "website": "https://vuetifyjs.com"
     },
     "W3 Total Cache": {
       "cats": [
@@ -13038,6 +13661,21 @@
       "scripts": "w3counter\\.com/tracker\\.js",
       "website": "http://www.w3counter.com"
     },
+    "WEBDEV": {
+      "cats": [
+        20
+      ],
+      "description": "WEBDEV is a tool to develop internet and intranet sites and applications that support data and processes",
+      "headers": {
+        "WebDevSrc": ""
+      },
+      "html": "<!-- [a-zA-Z0-9_]+ [\\d/]+ [\\d:]+ WebDev \\d\\d ([\\d.]+) -->\\;version:\\1",
+      "icon": "webdev.png",
+      "meta": {
+        "generator": "^WEBDEV$"
+      },
+      "website": "https://www.windev.com/webdev/index.html"
+    },
     "WEBXPAY": {
       "cats": [
         6
@@ -13053,17 +13691,18 @@
       "cats": [
         6
       ],
+      "description": "WHMCS is an automation platform that simplifies and automates all aspects of operating an online web hosting and domain registrar business.",
       "icon": "WHMCS.png",
       "js": {
         "WHMCS": ""
       },
-      "description": "WHMCS is an automation platform that simplifies and automates all aspects of operating an online web hosting and domain registrar business.",
       "website": "http://www.whmcs.com"
     },
     "WP Engine": {
       "cats": [
         62
       ],
+      "description": "WP Engine is a website hosting provider.",
       "headers": {
         "X-Pass-Why": "",
         "X-Powered-By": "WP Engine",
@@ -13178,30 +13817,18 @@
       "cats": [
         20
       ],
+      "description": "WebSite X5 is a tools to create and publish websites.",
       "icon": "WebSite X5.png",
       "meta": {
         "generator": "Incomedia WebSite X5 (\\w+ [\\d.]+)\\;version:\\1"
       },
       "website": "http://websitex5.com"
     },
-    "Webdev": {
-      "cats": [
-        20
-      ],
-      "headers": {
-        "WebDevSrc": ""
-      },
-      "html": "<!-- [a-zA-Z0-9_]+ [\\d/]+ [\\d:]+ WebDev \\d\\d ([\\d.]+) -->\\;version:\\1",
-      "icon": "webdev.png",
-      "meta": {
-        "generator": "^WEBDEV$"
-      },
-      "website": "https://www.windev.com/webdev/index.html"
-    },
     "Webflow": {
       "cats": [
         51
       ],
+      "description": "Webflow is Software-as-a-Service (Saas) for website building and hosting.",
       "html": "<html[^>]+data-wf-site",
       "icon": "webflow.svg",
       "js": {
@@ -13340,6 +13967,7 @@
       "cats": [
         1
       ],
+      "description": "Weebly is a website and eCommerce service.",
       "icon": "Weebly.png",
       "implies": [
         "PHP",
@@ -13349,7 +13977,6 @@
         "_W.configDomain": ""
       },
       "scripts": "cdn\\d+\\.editmysite\\.com",
-      "description": "Weebly is a website and eCommerce service.",
       "website": "https://www.weebly.com"
     },
     "Weglot": {
@@ -13466,6 +14093,7 @@
       "cookies": {
         "Domain": "\\.wix\\.com"
       },
+      "description": "Wix provides cloud-based web development services, allowing users to create HTML5 websites and mobile sites.",
       "headers": {
         "X-Wix-Renderer-Server": "",
         "X-Wix-Request-Id": "",
@@ -13480,7 +14108,6 @@
         "generator": "Wix\\.com Website Builder"
       },
       "scripts": "static\\.parastorage\\.com",
-      "description": "Wix provides cloud-based web development services, allowing users to create HTML5 websites and mobile sites.",
       "website": "https://www.wix.com"
     },
     "Wolf CMS": {
@@ -13505,6 +14132,7 @@
       "cats": [
         6
       ],
+      "description": "WooCommerce is an open-source e-commerce plugin for WordPress.",
       "html": [
         "<!-- WooCommerce",
         "<link rel='[^']+' id='woocommerce-(?:layout|smallscreen|general)-css'  href='https?://[^/]+/wp-content/plugins/woocommerce/assets/css/woocommerce(?:-layout|-smallscreen)?\\.css?ver=([\\d.]+)'\\;version:\\1"
@@ -13518,7 +14146,6 @@
         "generator": "WooCommerce ([\\d.]+)\\;version:\\1"
       },
       "scripts": "/woocommerce(?:\\.min)?\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1",
-      "description": "WooCommerce is an open-source e-commerce plugin for WordPress.",
       "website": "https://woocommerce.com"
     },
     "Woopra": {
@@ -13535,6 +14162,7 @@
         11
       ],
       "cpe": "cpe:/a:wordpress:wordpress",
+      "description": "WordPress is a free and open-source content management system written in PHP and paired with a MySQL or MariaDB database. Features include a plugin architecture and a template system.",
       "headers": {
         "X-Pingback": "/xmlrpc\\.php$",
         "link": "rel=\"https://api\\.w\\.org/\""
@@ -13588,6 +14216,7 @@
       "cats": [
         38
       ],
+      "description": "Wowza is a live video streaming platform.",
       "html": "<title>Wowza Media Server \\d+ ((?:\\w+ Edition )?\\d+\\.[\\d\\.]+(?: build\\d+)?)?\\;version:\\1",
       "icon": "Wowza Media Server.png",
       "website": "http://www.wowza.com"
@@ -13776,6 +14405,7 @@
       "cats": [
         32
       ],
+      "description": "Xtremepush is a customer engagement, personalisation and data platform. It's purpose-built for multichannel and mobile marketing.",
       "icon": "Xtremepush.svg",
       "js": {
         "xtremepush": ""
@@ -13798,6 +14428,7 @@
       "cats": [
         4
       ],
+      "description": "UIDoc is a Node.js application used at build time to generate API documentation.",
       "html": "(?:<html[^>]* yuilibrary\\.com/rdf/[\\d.]+/yui\\.rdf|<body[^>]+class=\"yui3-skin-sam)",
       "icon": "yahoo.png",
       "website": "http://developer.yahoo.com/yui/yuidoc"
@@ -13863,6 +14494,7 @@
       "cats": [
         36
       ],
+      "description": "Yandex Direct is the platform designed for sponsored ad management.",
       "html": "<yatag class=\"ya-partner__ads\">",
       "icon": "Yandex.Direct.png",
       "js": {
@@ -13870,22 +14502,21 @@
         "yandex_partner_id": ""
       },
       "scripts": "https?://an\\.yandex\\.ru/",
-      "description": "Yandex Direct is the platform designed for sponsored ad management.",
       "website": "http://partner.yandex.com"
     },
     "Yandex.Metrika": {
       "cats": [
         10
       ],
+      "description": "Yandex.Metrica is a free web analytics service that tracks and reports website traffic.",
       "icon": "Yandex.Metrika.png",
       "js": {
         "yandex_metrika": ""
       },
       "scripts": [
-        "mc\\.yandex\\.ru\\/metrika\\/watch\\.js",
-        "cdn\\.jsdelivr\\.net\\/npm\\/yandex-metrica-watch\\/watch\\.js"
+        "mc\\.yandex\\.ru/metrika/(?:tag|watch)\\.js",
+        "cdn\\.jsdelivr\\.net/npm/yandex\\-metrica\\-watch/watch\\.js"
       ],
-      "description": "Yandex.Metrica is a free web analytics service that tracks and reports website traffic.",
       "website": "http://metrika.yandex.com"
     },
     "Yaws": {
@@ -13924,6 +14555,7 @@
       "cookies": {
         "YII_CSRF_TOKEN": ""
       },
+      "description": "Yii is an open-source, object-oriented, component-based MVC PHP web application framework.",
       "html": [
         "Powered by <a href=\"http://www\\.yiiframework\\.com/\" rel=\"external\">Yii Framework</a>",
         "<input type=\"hidden\" value=\"[a-zA-Z0-9]{40}\" name=\"YII_CSRF_TOKEN\" \\/>",
@@ -13941,12 +14573,12 @@
       "cats": [
         54
       ],
+      "description": "Yoast SEO is a search engine optimization plug-in for WordPress.",
       "html": [
         "<!-- This site is optimized with the Yoast (?:WordPress )?SEO plugin v([\\d.]+) -\\;version:\\1"
       ],
       "icon": "Yoast SEO.png",
       "implies": "WordPress",
-      "description": "Yoast SEO is a search engine optimization plug-in for WordPress.",
       "website": "http://yoast.com"
     },
     "YouTrack": {
@@ -13983,6 +14615,7 @@
       "cats": [
         66
       ],
+      "description": "Zurb Foundation is used to prototype in the browser. Allows rapid creation of websites or applications while leveraging mobile and responsive technology. The front end framework is the collection of HTML, CSS, and Javascript containing design patterns.",
       "html": [
         "<link[^>]+foundation[^>\"]+css",
         "<div [^>]*class=\"[^\"]*(?:small|medium|large)-\\d{1,2} columns"
@@ -13991,7 +14624,6 @@
       "js": {
         "Foundation.version": "([\\d.]+)\\;version:\\1"
       },
-      "description": "Zurb Foundation is used to prototype in the browser. Allows rapid creation of websites or applications while leveraging mobile and responsive technology. The front end framework is the collection of HTML, CSS, and Javascript containing design patterns.",
       "website": "http://foundation.zurb.com"
     },
     "Zabbix": {
@@ -14056,17 +14688,18 @@
         "_zendesk_cookie": "",
         "_zendesk_shared_session": ""
       },
+      "description": "Zendesk is a cloud-based help desk management solution offering customizable tools to build customer service portal, knowledge base and online communities.",
       "headers": {
         "x-zendesk-user-id": ""
       },
       "icon": "Zendesk.png",
-      "description": "Zendesk is a cloud-based help desk management solution offering customizable tools to build customer service portal, knowledge base and online communities.",
       "website": "https://zendesk.com"
     },
     "Zendesk Chat": {
       "cats": [
         52
       ],
+      "description": "Zendesk Chat is a live chat and communication widget.",
       "icon": "Zendesk Chat.png",
       "scripts": "v2\\.zopim\\.com",
       "website": "http://zopim.com"
@@ -14118,13 +14751,13 @@
       "cats": [
         41
       ],
+      "description": "Zip is a payment service that lets you receive your purchase now and spread the total cost over a interest-free payment schedule.",
       "html": "<img [^>]*src=\"[^/]*//[^/]*eway\\.com",
       "icon": "zip_pay.svg",
       "scripts": [
         "static\\.zipmoney\\.com\\.au",
         "zip\\.co"
       ],
-      "description": "Zip is a payment service that lets you receive your purchase now and spread the total cost over a interest-free payment schedule.",
       "website": "https://www.zip.co/"
     },
     "Zipkin": {
@@ -14203,10 +14836,10 @@
       "cats": [
         66
       ],
+      "description": "Animate.css is a library of ready-to-use, cross-browser animations for use in web projects.",
       "html": [
         "<link [^>]+(?:/([\\d.]+)/)?animate\\.(?:min\\.)?css\\;version:\\1"
       ],
-      "description": "Animate.css is a library of ready-to-use, cross-browser animations for use in web projects.",
       "website": "https://daneden.github.io/animate.css/"
     },
     "basket.js": {
@@ -14347,10 +14980,10 @@
       "cats": [
         41
       ],
+      "description": "eWAY is a global omnichannel payment provider. The company processes secure credit card payments for merchants. eWay works through eCommerce.",
       "html": "<img [^>]*src=\"[^/]*//[^/]*eway\\.com",
       "icon": "eway.png",
       "scripts": "secure\\.ewaypayments\\.com",
-      "description": "eWAY is a global omnichannel payment provider. The company processes secure credit card payments for merchants. eWay works through eCommerce.",
       "website": "https://www.eway.com.au/"
     },
     "eZ Platform": {
@@ -14552,6 +15185,7 @@
       "cats": [
         20
       ],
+      "description": "iWeb is a web site creation tool.",
       "icon": "iWeb.png",
       "meta": {
         "generator": "^iWeb( [\\d.]+)?\\;version:\\1"
@@ -14632,6 +15266,7 @@
         59
       ],
       "cpe": "cpe:/a:jquery:jquery",
+      "description": "jQuery is a JavaScript library which is a free, open-source software designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.",
       "icon": "jQuery.svg",
       "js": {
         "jQuery.fn.jquery": "([\\d.]+)\\;version:\\1"
@@ -14641,13 +15276,13 @@
         "/([\\d.]+)/jquery(?:\\.min)?\\.js\\;version:\\1",
         "jquery.*\\.js(?:\\?ver(?:sion)?=([\\d.]+))?\\;version:\\1"
       ],
-      "description": "jQuery is a JavaScript library which is a free, open-source software designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.",
       "website": "https://jquery.com"
     },
     "jQuery Migrate": {
       "cats": [
         59
       ],
+      "description": "Query Migrate is a javascript library that allows you to preserve the compatibility of your jQuery code developed for versions of jQuery older than 1.9.",
       "icon": "jQuery.svg",
       "implies": "jQuery",
       "js": {
@@ -14656,7 +15291,6 @@
         "jqueryMigrate": ""
       },
       "scripts": "jquery[.-]migrate(?:-([\\d.]+))?(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1?\\1:\\2",
-      "description": "Query Migrate is a javascript library that allows you to preserve the compatibility of your jQuery code developed for versions of jQuery older than 1.9.",
       "website": "https://github.com/jquery/jquery-migrate"
     },
     "jQuery Mobile": {
@@ -14684,6 +15318,7 @@
         59
       ],
       "cpe": "cpe:/a:jquery:jquery_ui",
+      "description": "jQuery UI is a collection of GUI widgets, animated visual effects, and themes implemented with jQuery, Cascading Style Sheets, and HTML.",
       "icon": "jQuery UI.svg",
       "implies": "jQuery",
       "js": {
@@ -14694,7 +15329,6 @@
         "([\\d.]+)/jquery-ui(?:\\.min)?\\.js\\;version:\\1",
         "jquery-ui.*\\.js"
       ],
-      "description": "jQuery UI is a collection of GUI widgets, animated visual effects, and themes implemented with jQuery, Cascading Style Sheets, and HTML.",
       "website": "http://jqueryui.com"
     },
     "jQuery-pjax": {
@@ -14727,7 +15361,7 @@
       "cats": [
         31
       ],
-      "html": "<[^>]+?//cdn\\.jsdelivr\\.net/",
+      "html": "<link [^>]*?href=\"?[a-zA-Z]*?:?//cdn\\.jsdelivr\\.net/",
       "icon": "jsdelivr-icon.svg",
       "scripts": "//cdn\\.jsdelivr\\.net/",
       "website": "https://www.jsdelivr.com/"
@@ -15083,6 +15717,7 @@
       "cats": [
         4
       ],
+      "description": "phpDocumentor is an open-source documentation generator written in PHP.",
       "html": "<!-- Generated by phpDocumentor",
       "icon": "phpDocumentor.png",
       "implies": "PHP",
@@ -15237,6 +15872,7 @@
       "cats": [
         17
       ],
+      "description": "sIFR is a JavaScript and Adobe Flash dynamic web fonts implementation.",
       "icon": "sIFR.png",
       "scripts": "sifr\\.js",
       "website": "https://www.mikeindustries.com/blog/sifr"
@@ -15300,6 +15936,7 @@
         12,
         47
       ],
+      "description": "Styled components is a CSS-in-JS styling framework that uses tagged template literals in JavaScript.",
       "html": [
         "<style[^>]*data-styled(?:-components)?[\\s\"]",
         "<style[^>]+data-styled-version=\"([0-9]+)\"\\;version:\\1",
@@ -15326,6 +15963,7 @@
       "cats": [
         66
       ],
+      "description": "Tailwind is a utility-first CSS framework.",
       "html": [
         "<link[^>]+?href=\"[^\"]+tailwindcss(?:\\.min)?\\.css"
       ],
@@ -15336,6 +15974,7 @@
       "cats": [
         25
       ],
+      "description": "Three.js is a cross-browser JavaScript library and application programming interface used to create and display animated 3D computer graphics in a web browser using WebGL.",
       "icon": "three.js.png",
       "js": {
         "THREE.REVISION": "^(.+)$\\;version:\\1"
@@ -15397,6 +16036,7 @@
       "cats": [
         68
       ],
+      "description": "uRemediate provides web accessibility testing tools.",
       "icon": "User1st.png",
       "scripts": "fecdn\\.user1st\\.info/Loader/head",
       "website": "https://www.user1st.com/uremediate/"
@@ -15462,6 +16102,7 @@
       "cats": [
         19
       ],
+      "description": "Webpack is an open-source JavaScript module bundler.",
       "icon": "webpack.svg",
       "js": {
         "webpackJsonp": ""
@@ -15520,291 +16161,6 @@
         "generator": "xt:Commerce"
       },
       "website": "https://www.xt-commerce.com"
-    },
-    "NitroPack": {
-      "cats": [
-        23
-      ],
-      "icon": "NitroPack.svg",
-      "description": "NitroPack creates optimized HTML cache for fast page loading experience.",
-      "meta": {
-        "generator": "NitroPack"
-      },
-      "website": "https://nitropack.io/"
-    }
-  },
-  "categories": {
-    "1": {
-      "name": "CMS",
-      "priority": 1
-    },
-    "2": {
-      "name": "Message boards",
-      "priority": 1
-    },
-    "3": {
-      "name": "Database managers",
-      "priority": 2
-    },
-    "4": {
-      "name": "Documentation",
-      "priority": 2
-    },
-    "5": {
-      "name": "Widgets",
-      "priority": 9
-    },
-    "6": {
-      "name": "Ecommerce",
-      "priority": 1
-    },
-    "7": {
-      "name": "Photo galleries",
-      "priority": 1
-    },
-    "8": {
-      "name": "Wikis",
-      "priority": 1
-    },
-    "9": {
-      "name": "Hosting panels",
-      "priority": 1
-    },
-    "10": {
-      "name": "Analytics",
-      "priority": 9
-    },
-    "11": {
-      "name": "Blogs",
-      "priority": 1
-    },
-    "12": {
-      "name": "JavaScript frameworks",
-      "priority": 8
-    },
-    "13": {
-      "name": "Issue trackers",
-      "priority": 2
-    },
-    "14": {
-      "name": "Video players",
-      "priority": 7
-    },
-    "15": {
-      "name": "Comment systems",
-      "priority": 9
-    },
-    "16": {
-      "name": "Security",
-      "priority": 9
-    },
-    "17": {
-      "name": "Font scripts",
-      "priority": 9
-    },
-    "18": {
-      "name": "Web frameworks",
-      "priority": 7
-    },
-    "19": {
-      "name": "Miscellaneous",
-      "priority": 9
-    },
-    "20": {
-      "name": "Editors",
-      "priority": 4
-    },
-    "21": {
-      "name": "LMS",
-      "priority": 1
-    },
-    "22": {
-      "name": "Web servers",
-      "priority": 8
-    },
-    "23": {
-      "name": "Caching",
-      "priority": 7
-    },
-    "24": {
-      "name": "Rich text editors",
-      "priority": 5
-    },
-    "25": {
-      "name": "JavaScript graphics",
-      "priority": 6
-    },
-    "26": {
-      "name": "Mobile frameworks",
-      "priority": 8
-    },
-    "27": {
-      "name": "Programming languages",
-      "priority": 5
-    },
-    "28": {
-      "name": "Operating systems",
-      "priority": 6
-    },
-    "29": {
-      "name": "Search engines",
-      "priority": 4
-    },
-    "30": {
-      "name": "Webmail",
-      "priority": 2
-    },
-    "31": {
-      "name": "CDN",
-      "priority": 9
-    },
-    "32": {
-      "name": "Marketing automation",
-      "priority": 9
-    },
-    "33": {
-      "name": "Web server extensions",
-      "priority": 7
-    },
-    "34": {
-      "name": "Databases",
-      "priority": 5
-    },
-    "35": {
-      "name": "Maps",
-      "priority": 6
-    },
-    "36": {
-      "name": "Advertising",
-      "priority": 9
-    },
-    "37": {
-      "name": "Network devices",
-      "priority": 2
-    },
-    "38": {
-      "name": "Media servers",
-      "priority": 1
-    },
-    "39": {
-      "name": "Webcams",
-      "priority": 9
-    },
-    "41": {
-      "name": "Payment processors",
-      "priority": 8
-    },
-    "42": {
-      "name": "Tag managers",
-      "priority": 9
-    },
-    "44": {
-      "name": "CI",
-      "priority": 3
-    },
-    "45": {
-      "name": "Control systems",
-      "priority": 2
-    },
-    "46": {
-      "name": "Remote access",
-      "priority": 1
-    },
-    "47": {
-      "name": "Development",
-      "priority": 2
-    },
-    "48": {
-      "name": "Network storage",
-      "priority": 2
-    },
-    "49": {
-      "name": "Feed readers",
-      "priority": 1
-    },
-    "50": {
-      "name": "DMS",
-      "priority": 1
-    },
-    "51": {
-      "name": "Page builders",
-      "priority": 2
-    },
-    "52": {
-      "name": "Live chat",
-      "priority": 8
-    },
-    "53": {
-      "name": "CRM",
-      "priority": 5
-    },
-    "54": {
-      "name": "SEO",
-      "priority": 8
-    },
-    "55": {
-      "name": "Accounting",
-      "priority": 1
-    },
-    "56": {
-      "name": "Cryptominers",
-      "priority": 5
-    },
-    "57": {
-      "name": "Static site generator",
-      "priority": 1
-    },
-    "58": {
-      "name": "User Onboarding",
-      "priority": 8
-    },
-    "59": {
-      "name": "JavaScript libraries",
-      "priority": 9
-    },
-    "60": {
-      "name": "Containers",
-      "priority": 8
-    },
-    "61": {
-      "name": "SaaS",
-      "priority": 8
-    },
-    "62": {
-      "name": "PaaS",
-      "priority": 8
-    },
-    "63": {
-      "name": "IaaS",
-      "priority": 8
-    },
-    "64": {
-      "name": "Reverse proxies",
-      "priority": 7
-    },
-    "65": {
-      "name": "Load balancers",
-      "priority": 7
-    },
-    "66": {
-      "name": "UI frameworks",
-      "priority": 7
-    },
-    "67": {
-      "name": "Cookie compliance",
-      "priority": 9
-    },
-    "68": {
-      "name": "Accessibility",
-      "priority": 9
-    },
-    "69": {
-      "name": "Social login",
-      "priority": 6
-    },
-    "70": {
-      "name": "SSL/TLS certificate authority",
-      "priority": 6
     }
   }
 }

@@ -19,7 +19,14 @@ Note that results could not be exactly the same as the [Wappalyzer](https://www.
 
 ## Setup
 
-To install dependencies and update technologies.json file:
+To install from repo:
+```shell
+git clone https://github.com/blackarrowsec/wappy
+cd wappy/
+make install
+```
+
+To install dependencies:
 ```shell
 git clone https://github.com/blackarrowsec/wappy
 cd wappy/

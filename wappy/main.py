@@ -12,7 +12,7 @@ from functools import partial
 import sys
 import json
 import urllib3
-from .md5 import md5, get_file_md5
+from .md5 import get_file_md5
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 

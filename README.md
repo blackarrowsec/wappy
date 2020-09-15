@@ -41,7 +41,7 @@ python3 wappy.py -h
 
 To update technologies.json file:
 ```shell
-make uptechs
+wappy-update
 ```
 
 

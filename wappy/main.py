@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import os
 import requests
 import logging
 import wap
@@ -12,7 +13,6 @@ import sys
 import json
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-
 
 logger = logging.getLogger(__name__)
 DONE = -1
@@ -29,8 +29,7 @@ def parse_args():
 
     parser.add_argument(
         "--file",
-        help="File with apps regexps",
-        default="technologies.json"
+        help="File with technologies regexps",
     )
 
     parser.add_argument(
@@ -93,6 +92,10 @@ def parse_args():
     args = parser.parse_args()
     args.allow_redirects = not args.no_redirect
     args.show_url = not args.no_url
+
+    if not args.file:
+        script_dir = os.path.dirname(os.path.realpath(__file__))
+        args.file = os.path.join(script_dir, "technologies.json")
 
     return args
 

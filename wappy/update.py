@@ -2,7 +2,7 @@ import os
 import logging
 import requests
 import argparse
-import hashlib
+from .md5 import md5, get_file_md5
 
 logger = logging.getLogger(__name__)
 
@@ -95,17 +95,6 @@ def init_log(verbosity=0, log_file=None):
 def update_file(filepath, content):
     with open(filepath, 'wb') as fo:
         fo.write(content)
-
-
-def get_file_md5(filepath):
-    with open(filepath, 'rb') as fi:
-        return md5(fi.read())
-
-
-def md5(content):
-    md5_hash = hashlib.md5()
-    md5_hash.update(content)
-    return md5_hash.hexdigest()
 
 
 if __name__ == '__main__':

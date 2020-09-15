@@ -12,6 +12,8 @@ from functools import partial
 import sys
 import json
 import urllib3
+from .md5 import md5, get_file_md5
+
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 logger = logging.getLogger(__name__)
@@ -108,6 +110,7 @@ def main():
     logger.info("Loaded %d categories", len(categories))
     logger.info("Workers: %s", args.workers)
     logger.info("Output: %s format", "json" if args.json else "grep")
+    logger.info("Technologies file MD5: %s", get_file_md5(args.file))
 
     pool = ThreadPoolExecutor(args.workers)
     q = Queue()

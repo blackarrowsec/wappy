@@ -5,4 +5,5 @@ install: uptechs
 	python3 -m pip install -r requirements.txt
 
 uptechs:
-	curl https://raw.githubusercontent.com/AliasIO/wappalyzer/master/src/technologies.json -Os
+	curl https://raw.githubusercontent.com/AliasIO/wappalyzer/master/src/technologies.json -s \
+	-o wappy/technologies.json

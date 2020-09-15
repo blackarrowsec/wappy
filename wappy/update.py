@@ -8,7 +8,9 @@ logger = logging.getLogger(__name__)
 
 
 def parse_args():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description="Update the technologies rules used by wappy."
+    )
 
     source_group = parser.add_mutually_exclusive_group()
 

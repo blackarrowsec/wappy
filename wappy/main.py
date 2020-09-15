@@ -21,7 +21,9 @@ DONE = -1
 
 
 def parse_args():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description="Discover technologies in web applications."
+    )
 
     parser.add_argument(
         "target",

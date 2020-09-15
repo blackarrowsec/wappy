@@ -19,6 +19,11 @@ Note that results could not be exactly the same as the [Wappalyzer](https://www.
 
 ## Setup
 
+To install from pypi:
+```shell
+pip3 install wappy
+```
+
 To install from repo:
 ```shell
 git clone https://github.com/blackarrowsec/wappy

@@ -53,7 +53,7 @@ technologies based on the response.
 
 To get technologies from url:
 ```shell
-$ python3 wappy.py https://twitter.com
+$ wappy https://twitter.com
 https://twitter.com/ Express
 https://twitter.com/ Node.js
 ```
@@ -61,8 +61,8 @@ https://twitter.com/ Node.js
 To get technologies from several urls you can provide a file or send 
 urls for stdin:
 ```shell
-$ cat urls.txt | python3 wappy.py
-$ python3 wappy.py urls.txt
+$ cat urls.txt | wappy
+$ wappy urls.txt
 https://www.google.com/ Google Web Server
 https://twitter.com/ Express
 https://twitter.com/ Node.js
@@ -73,14 +73,14 @@ https://www.reddit.com/ Python
 
 In json format:
 ```shell
-$ python3 wappy.py urls.txt -j
+$ wappy urls.txt -j
 [{"name": "Google Web Server", "url": "https://www.google.com/"}, {"name": "Express", "url": "https://twitter.com/"}, {"name": "Node.js", "url": "https://twitter.com/"}, {"name": "Reddit", "url": "https://www.reddit.com/"}, {"name": "Python", "url": "https://www.reddit.com/"}, {"name": "Varnish", "url": "https://www.reddit.com/"}]
 ```
 
 Show version (`-b`), categories (`-k`) and confidence (`-c`) with `;` 
 as delimiter (`-d`):
 ```shell
-$ python3 wappy.py https://python.org -kbc -d ';'
+$ wappy https://python.org -kbc -d ';'
 https://www.python.org/;jQuery;1.8.2;100;JavaScript libraries
 https://www.python.org/;Varnish;;100;Caching
 https://www.python.org/;Modernizr;;100;JavaScript libraries
@@ -89,7 +89,7 @@ https://www.python.org/;Nginx;;100;Web servers,Reverse proxies
 
 In json format:
 ```shell
-$ python3 wappy.py https://python.org -kbc -j
+$ wappy https://python.org -kbc -j
 [{"name": "Modernizr", "url": "https://www.python.org/", "version": "", "confidence": 100, "categories": ["JavaScript libraries"]}, {"name": "jQuery", "url": "https://www.python.org/", "version": "1.8.2", "confidence": 100, "categories": ["JavaScript libraries"]}, {"name": "Varnish", "url": "https://www.python.org/", "version": "", "confidence": 100, "categories": ["Caching"]}, {"name": "Nginx", "url": "https://www.python.org/", "version": "", "confidence": 100, "categories": ["Web servers", "Reverse proxies"]}]
 ```
 

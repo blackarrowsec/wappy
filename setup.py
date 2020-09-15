@@ -31,6 +31,7 @@ setuptools.setup(
     entry_points={
         "console_scripts": [
             "wappy = wappy.main:main",
+            "wappy-update = wappy.update:main",
         ]
     },
     package_data={"wappy": ["technologies.json"]},

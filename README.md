@@ -76,6 +76,7 @@ In json format:
 $ wappy urls.txt -j
 [{"name": "Google Web Server", "url": "https://www.google.com/"}, {"name": "Express", "url": "https://twitter.com/"}, {"name": "Node.js", "url": "https://twitter.com/"}, {"name": "Reddit", "url": "https://www.reddit.com/"}, {"name": "Python", "url": "https://www.reddit.com/"}, {"name": "Varnish", "url": "https://www.reddit.com/"}]
 ```
+In [schema.json](./schema.json) you have the schema of the json output.
 
 Show version (`-b`), categories (`-k`) and confidence (`-c`) with `;` 
 as delimiter (`-d`):

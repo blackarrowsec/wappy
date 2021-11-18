@@ -2,6 +2,8 @@ import os
 import logging
 import requests
 import argparse
+import re
+import json
 from .md5 import md5, get_file_md5
 
 logger = logging.getLogger(__name__)
@@ -17,7 +19,7 @@ def parse_args():
     source_group.add_argument(
         "-u", "--url",
         help="URL to retrieve the technologies file",
-        default="https://raw.githubusercontent.com/AliasIO/wappalyzer/master/src/technologies.json"
+        default="https://github.com/AliasIO/wappalyzer/tree/master/src/technologies"
     )
 
     source_group.add_argument(
@@ -44,6 +46,31 @@ def parse_args():
     return args
 
 
+def get_technologies_from_github(content):
+    exp = r'<a class="js-navigation-open Link--primary" title=".*?\.json" data-pjax="#repo-content-pjax-container" href="\/AliasIO\/wappalyzer\/blob\/master\/src\/technologies\/.*?\.json">(.*?\.json)<\/a>'
+    tech_folder = "https://raw.githubusercontent.com/AliasIO/wappalyzer/master/src/technologies"
+    json_files = re.findall(exp, content)
+    return [f"{tech_folder}/{json_file}" for json_file in json_files]
+
+
+def merge_into_json_schema(categories, technologies):
+    return {
+        "$schema": "../schema.json",
+        "categories": categories,
+        "technologies": technologies
+    }
+
+
+def pack_technologies_json_files(files):
+    technologies = {}
+    for file in files:
+        res = requests.get(file)
+        technologies = dict(res.json(), **technologies)
+    categories = requests.get("https://raw.githubusercontent.com/AliasIO/wappalyzer/master/src/categories.json").json()
+    schema = merge_into_json_schema(categories, technologies)
+    return json.dumps(schema, indent=2).encode('utf-8')
+
+
 def main():
     args = parse_args()
     init_log(args.verbosity)
@@ -56,9 +83,10 @@ def main():
     if args.file:
         content = args.file.read()
     else:
-        try:
+        try:            
             res = requests.get(args.url)
-            content = res.content
+            files = get_technologies_from_github(res.text)
+            content = pack_technologies_json_files(files)
         except Exception as ex:
             logger.error("Error retrieving file from '%s': %s", args.url, ex)
             return -1
